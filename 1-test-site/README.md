@@ -1,4 +1,4 @@
-# Build your first website
+# Building your first website
 ## What is this about?
 This is test website that was build to demonstrate to you how you can use Vanilla HTML, CSS and JavaScript to build your first website.
 ## How you can access this live website
