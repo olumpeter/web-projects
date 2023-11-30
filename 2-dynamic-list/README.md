@@ -4,9 +4,9 @@ The aim of this project is to learn how you can add a new item to a list dynamic
 ## How you can access this live website
 <p>To access this live website, use the following URL:</p>
 <ul>
-  <li>https://olumpeter.github.io/web-projects/dynamic-list/</li>
+  <li>https://olumpeter.github.io/web-projects/2-dynamic-list/</li>
 </ul>
 <p>or click the following link:<p> 
 <ul>
-  <li><a href="https://olumpeter.github.io/web-projects/dynamic-list/">Visit website</a></li>
+  <li><a href="https://olumpeter.github.io/web-projects/2-dynamic-list/">Visit website</a></li>
 </ul>
