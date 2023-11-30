@@ -7,7 +7,6 @@ This projects helps you to actively learn HTML text fundamentals that includes:
   <li>Implementing structural hierarchy</li>
   <li>Lists</li>
 </ul>
-
 ## How you can access this live website
 <p>To access this live website, use the following URL:</p>
 <ul>
