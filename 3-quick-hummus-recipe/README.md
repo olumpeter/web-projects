@@ -1,4 +1,4 @@
-# A webpage containing a quick hummus recipe using HTML
+# Building a webpage containing a quick hummus recipe using HTML
 
 ## What is this about?
 <p>This projects helps you to actively learn HTML text fundamentals that includes:</p>
