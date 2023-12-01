@@ -1,4 +1,4 @@
-# Task 1: Marking up HTML text using semantic heading and paragraph elements.
+# Task 1: Marking up HTML text using semantic heading and paragraph elements
 
 ## How you can access this live website
 <p>Use the following URL:</p>
