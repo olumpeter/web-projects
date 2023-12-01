@@ -7,4 +7,6 @@ This repository contains web projects build using HTML, CSS and JavaScript meant
         Creating a dynamic list using HTML, CSS and JavaScript</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/3-quick-hummus-recipe">
         Building a webpage containing a quick hummus recipe using HTML</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/4-bold-italic-underline">
+        Using of &lt;b&gt;, &lt;i&gt; and &lt;u&gt; to format HTML text</a></li>
 </ol>
