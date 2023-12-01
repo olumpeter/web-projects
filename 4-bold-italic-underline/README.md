@@ -16,6 +16,6 @@ This projects demonstrates:
 </ul>
 <p>or click the following link:</p> 
 <ul>
-  <li><a href="https://olumpeter.github.io/web-projects/4-bold-italic-underline">
+  <li><a href="https://olumpeter.github.io/web-projects/4-bold-italic-underline/">
     Visit website</a></li>
 </ul>
