@@ -9,4 +9,6 @@ This repository contains web projects build using HTML, CSS and JavaScript meant
         Building a webpage containing a quick hummus recipe using HTML</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/4-bold-italic-underline">
         Using of &lt;b&gt;, &lt;i&gt; and &lt;u&gt; to format HTML text</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/5-task-1">
+        Task 1: Marking up HTML text using semantic heading and paragraph elements</a></li>
 </ol>
