@@ -11,6 +11,6 @@ This repository contains web projects build using HTML, CSS and JavaScript meant
         Using of &lt;b&gt;, &lt;i&gt; and &lt;u&gt; to format HTML text</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/5-task-1">
         Task 1: Marking up HTML text using semantic heading and paragraph elements</a></li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/6-task-2-lists">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/6-task-2-lists-headings-paragraphs">
         Task 2: Marking up HTML text using ordered and unordered semantic list elements</a></li>
 </ol>
