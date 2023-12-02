@@ -23,5 +23,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/8-navigation-menu">
         Creating a navigation menu</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/9-links-task-1-whales">
-        Links - Task 1: Implementing hyperlinks in HTML.</a></li>
+        Links - Task 1: Implementing hyperlinks in HTML</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/10-links-task-2-relative-absolute-paths-document-fragments">
+        Links - Task 2: Implementing hyperlinks in HTML</a></li>
 </ol>
