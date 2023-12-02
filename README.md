@@ -22,4 +22,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Task 3: Marking up appropriate words with strong importance and emphasis using &lt;strong&gt; and &lt;em&gt; inline elements</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/8-navigation-menu">
         Creating a navigation menu</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/9-links-task-1-whales">
+        Links - Task 1: Implementing hyperlinks in HTML.</a></li>
 </ol>
