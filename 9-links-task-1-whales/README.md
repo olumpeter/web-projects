@@ -1,4 +1,4 @@
-## Links - Task 1: Implementing hyperlinks in HTML.
+## Links - Task 1: Implementing hyperlinks in HTML
 
 This first task covers some link basics:
 
