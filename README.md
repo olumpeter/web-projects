@@ -1,5 +1,8 @@
-# Web development projects for active learning
-This repository contains web projects build using HTML, CSS and JavaScript meant to take you from "beginner" to "comfortable" as far as web development is concerned. The web development projects contained therein are:
+# Web design and development projects for active learning
+
+Welcome to my web design and development projects' page. We will show you the web projects build using HTML, CSS and JavaScript that are meant to take you from "beginner" to "comfortable" as far as web design and development is concerned. 
+
+The web development projects contained therein are:
 <ol>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/1-test-site">
         Building your first website</a></li>
