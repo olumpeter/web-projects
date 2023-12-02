@@ -6,6 +6,7 @@ This first task covers some link basics:
 - giving it a descriptive title so that when moused over that tells the user that the page includes information on Blue Whales and Sperm Whales.
 - creating an email link that you can click to open up an email in the user's default mail application, with the recipient set as "whales@example.com".
 - set the email link to have so that the subject line of the email is automatically filled in as "Question about Whales".
+- Using %20 escape characters so that you get spaces in the subject line.
 
 ## How you can access this live website
 <p>Use the following URL:</p>
