@@ -6,10 +6,12 @@ This second task covers skills in absolute and relative paths, as well as link f
 ## How you can access this live website
 <p>Use the following URL:</p>
 <ul>
-  <li>https://olumpeter.github.io/web-projects/10-links-task-2-relative-absolute-paths-document-fragments/</li>
+  <li>https://olumpeter.github.io/web-projects/10-links-task-2-relative-absolute-paths-document-fragments
+/task-2/</li>
 </ul>
 <p>or click the following link:</p> 
 <ul>
-  <li><a href="https://olumpeter.github.io/web-projects/10-links-task-2-relative-absolute-paths-document-fragments/">
+  <li><a href="https://olumpeter.github.io/web-projects/10-links-task-2-relative-absolute-paths-document-fragments
+/task-2/">
     Visit website</a></li>
 </ul>
