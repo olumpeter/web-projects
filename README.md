@@ -1,6 +1,8 @@
 # Web design and development projects for active learning
 
-Welcome to my web design and development projects' page. We will show you the web projects build using HTML, CSS and JavaScript that are meant to take you from "beginner" to "comfortable" as far as web design and development is concerned. 
+Welcome to my web design and development projects' page. 
+
+We will show you the projects build using HTML, CSS and JavaScript that are meant to take you from "beginner" to "comfortable" as far as web design and development is concerned. 
 
 ## Content:
 <ol>
