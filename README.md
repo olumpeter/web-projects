@@ -32,4 +32,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Description list example</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/13-blockquote-example">
         Blockquote example</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/14-inline-quotation-example">
+        Inline quotation example</a></li>
 </ol>
