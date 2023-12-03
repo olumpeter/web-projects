@@ -30,4 +30,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Links - Task 3: Using clear link wordings</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/12-description-list-example">
         Description list example</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/13-blockquote-example">
+        Blockquote example</a></li>
 </ol>
