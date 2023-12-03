@@ -1,6 +1,6 @@
 # Inline quotation example
 
-Inline quotation works exactly the same way as blockquote. The only difference is that it uses /<q/> HTML element whereas blockquote uses /<blockquote/> HTML element
+Inline quotation works exactly the same way as blockquote. The only difference is that it uses &lt;q&gt; HTML element whereas blockquote uses &lt;blockquote&gt; HTML element
 
 Browsers by default render inline quotation as normal text put in quotes to indicate a quotation.
 
