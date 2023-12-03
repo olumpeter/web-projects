@@ -26,4 +26,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Links - Task 1: Implementing hyperlinks in HTML</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/10-links-task-2-relative-absolute-paths-document-fragments">
         Links - Task 2: Implementing hyperlinks in HTML</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/11-links-task-3-good-link-text">
+        Links - Task 3: Using clear link wordings</a></li>
 </ol>
