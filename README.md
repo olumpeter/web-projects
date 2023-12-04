@@ -40,4 +40,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Abbreviation example</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/17-contact-details-example">
         Marking up contact details</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/18-superscript-and-subscript">
+        Superscript and subscript example</a></li>
 </ol>
