@@ -2,11 +2,11 @@
 
 This example demonstrates how to mark up computer codes using
 <ul>
-  <li><code>&lt;code&gt;</code>code> for marking up generic pieces of computer code,</li>
-  <li><code>&lt;pre&gt;</code>code> for retaining whitespace (generally code blocks),</li>
-  <li><code>&lt;var&gt;</code>code> for marking up variable names,</li>
-  <li><code>&lt;kdb&gt;</code>code> for marking up input entered into the computer and</li>
-  <li><code>&lt;samp&gt;</code>code> for marking up output of a computer program.</li>
+  <li><code>&lt;code&gt;</code> element for marking up generic pieces of computer code,</li>
+  <li><code>&lt;pre&gt;</code> element for retaining whitespace (generally code blocks),</li>
+  <li><code>&lt;var&gt;</code> element for marking up variable names,</li>
+  <li><code>&lt;kdb&gt;</code> element for marking up input entered into the computer and</li>
+  <li><code>&lt;samp&gt;</code> element for marking up output of a computer program.</li>
 </ul>
    
 ## How you can access this live website
