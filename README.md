@@ -38,4 +38,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Citations Example</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/16-abbreviation-example">
         Abbreviation example</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/17-contact-details-example">
+        Marking up contact details</a></li>
 </ol>
