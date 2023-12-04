@@ -1,6 +1,6 @@
 # Marking up contact details
 
-Marking up contact details: This example demonstrates how &lt;address&gt; wraps around your contact details.
+Marking up contact details: This example demonstrates how &lt;address&gt; HTML element wraps around your contact details.
 
 ## How you can access this live website
 <p>Use the following URL:</p>
