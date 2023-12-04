@@ -1,6 +1,6 @@
 # Marking up times and dates
 
-This example demonstrates how to mark up times and dates using <code>&lt;time&gt;</code> element
+This example demonstrates how to mark up times and dates using <code>&lt;time&gt;</code> element.
    
 ## How you can access this live website
 <p>Use the following URL:</p>
