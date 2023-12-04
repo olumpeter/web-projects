@@ -36,4 +36,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Inline quotation example</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/15-citations-example">
         Citations Example</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/16-abbreviation-example">
+        Abbreviation example</a></li>
 </ol>
