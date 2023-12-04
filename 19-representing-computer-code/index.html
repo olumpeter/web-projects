@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta name="author" content="Peter Olum"/>
+        <meta name="description" content="Representing computer code: This 
+        example demonstrates how to mark up computer codes using 
+        &lt;code&gt;,  &lt;pre&gt;,  &lt;var&gt;,  &lt;kdb&gt;,  &lt;samp&gt;."/>
+
+        <title>Computer code</title>
+    </head>
+    <body>
+        <h1>Representing computer code</h1>
+
+        <h2>
+            Retaining whitespace (generally code blocks) using <code>&lt;pre&gt;</code> element
+        </h2>
+        <pre><code>
+const para = document.querySelector("p");
+
+para.onclick = function() {
+    alert("Owww, stop poking me!")
+}
+        </code></pre>
+
+        <h2>
+            Marking up generic pieces of computer code using <code>&lt;code&gt;</code> element
+        </h2> 
+        <p>
+            You shouldn't use presentational elements like 
+            <code>&lt;</code>font<code>&gt;</code> and 
+            <code>&lt;</code>center<code>&gt;</code>. 
+        </p>
+
+        <h2>
+            Marking up variable names using <code>&lt;var&gt;</code> element
+        </h2>
+        <p>
+            In the above JavaScript example, <var>para</var> represents a paragraph element.
+        </p>
+
+        <h2>
+            Marking up input entered into the computer using <code>&lt;kdb&gt;</code> element 
+            and the output of a computer program using <code>&lt;samp&gt;</code> element
+        </h2>
+        <pre>
+<kbd>$ ping mozilla.org</kbd>
+<samp>PING mozilla.org (63.245.215.20): 56 data bytes
+64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms
+</samp>
+        </pre>
+        
+    </body>
+</html>
