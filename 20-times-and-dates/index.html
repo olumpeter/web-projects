@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta name="author" content="Peter Olum"/>
+        <meta name="description" content="Marking up times and dates: This 
+        example demonstrates how to mark up times and dates using 
+        &lt;time&gt;, element"/>
+
+        <title>Times and dates</title>
+    </head>
+    <body>
+        <h1>Marking up times and dates</h1>
+
+        <h2>Standard simple date</h2>
+        <time datetime="2016-01-20"> 20 January 2016</time>
+
+        <h2>Year and month</h2>
+        <time datetime="2016-01">January 2016</time>
+
+        <h2>Month and day</h2>
+        <time datetime="01-20">20 January</time>
+
+        <h2>Time, hours and minutes</h2>
+        <time datetime="19:30">19:30</time>
+
+        <h2>Time, hours, minutes, seconds and milliseconds</h2>
+        <time datetime="19:30:01.8856">19:30:01.856</time>
+
+        <h2>Date and time</h2>
+        <time datetime="2016-01-20T19:30">7.30pm, 20 January 2016</time>
+
+        <h2>Date and time with timezone offset</h2>
+        <time datetime="2016-01-20T19:30+01:00">
+            7:30pm, 20 January 2016 is 8:30pm in France
+        </time>
+
+        <h2>Calling out a specific week number</h2>
+        <time datetime="2016-W04">The fourth week of 2016</time>
+    </body>
+</html>
