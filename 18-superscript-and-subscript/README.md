@@ -1,8 +1,6 @@
 # Superscript and subscript example
 
-This example demonstrates the use of &lt;sup&gt; and &lt;sub&gt; HTML elements to 
-markup superscript and subscript respectively in items like dates, chemical formulae, 
-and mathematical equations so they have the correct meaning.
+This example demonstrates the use of <code>&lt;sup&gt;</code> and <code>&lt;sub&gt;</code> HTML elements to markup superscript and subscript respectively in items like dates, chemical formulae, and mathematical equations so they have the correct meaning.
 
 ## How you can access this live website
 <p>Use the following URL:</p>
