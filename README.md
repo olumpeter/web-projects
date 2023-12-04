@@ -34,4 +34,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Blockquote example</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/14-inline-quotation-example">
         Inline quotation example</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/15-citations-example">
+        Citations Example</a></li>
 </ol>
