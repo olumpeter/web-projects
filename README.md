@@ -42,6 +42,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Marking up contact details</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/18-superscript-and-subscript">
         Superscript and subscript example</a></li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/19-representing-computer-cod">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/19-representing-computer-code">
         Representing computer code</a></li>
 </ol>
