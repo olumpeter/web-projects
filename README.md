@@ -46,4 +46,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Representing computer code</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/20-times-and-dates">
         Marking up times and dates</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/21-Advanced-HTML-text-tasks">
+        Advanced HTML text tasks</a></li>
 </ol>
