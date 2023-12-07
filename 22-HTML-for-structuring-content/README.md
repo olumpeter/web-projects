@@ -9,7 +9,7 @@ The aim of this project is to illustrate a typical website layout and structure,
   <li>footer: &lt;footer&gt;</li>
 </ul>
 
-The text in the article in the webpage was sourced from https://provenir.com.au/recipes/everything-you-need-to-know-about-osso-buco/ and its only meant for active learning and demonstrations
+The text in the article in the webpage was sourced from <a href="https://provenir.com.au/recipes/everything-you-need-to-know-about-osso-buco/"> provenir website </a> and its only meant for active learning and demonstration.
    
 ## How you can access this live website
 <p>Use the following URL:</p>
