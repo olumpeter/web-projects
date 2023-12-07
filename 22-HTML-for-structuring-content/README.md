@@ -14,10 +14,10 @@ The text in the article in the webpage was sourced from <a href="https://proveni
 ## How you can access this live website
 <p>Use the following URL:</p>
 <ul>
-  <li>https://olumpeter.github.io/web-projects/document_and_website_structure/</li>
+  <li>https://olumpeter.github.io/web-projects/22-HTML-for-structuring-content/</li>
 </ul>
 <p>or click the following link:</p> 
 <ul>
-  <li><a href="https://olumpeter.github.io/web-projects/document_and_website_structure/">
+  <li><a href="https://olumpeter.github.io/web-projects/22-HTML-for-structuring-content/">
     Visit website</a></li>
 </ul>
