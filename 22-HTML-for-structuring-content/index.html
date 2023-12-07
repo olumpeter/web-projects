@@ -4,31 +4,143 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"/>
         <meta name="author" content="Peter Olum"/>
-        <meta name="description" content="Advanced HTML text Task 1: This Task 
-        tests your skill in marking up description lists in HTML."/>
+        <meta name="description" content="Document and website structure: The 
+        aim of this project is to illustrate a typical website layout 
+        and structure, and how you can lay it out using CSS. The website layout
+        and structure is implemented using the following semantic mark up: 
+        header: &lt;header&gt;, navigation bar: &lt;nav&gt;, 
+        main content: &lt;main&gt;, sidebar: &lt;aside&gt;, 
+        footer: &lt;footer&gt;. The text in the article in the webpage was sourced
+        from https://provenir.com.au/recipes/everything-you-need-to-know-about-osso-buco/ 
+        and its only meant for active learning and demonstrations"/>
 
-        <title>Task 1</title>
+        <title>Ossobuco</title>
 
-        <link href="styles/styles.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One"
+        rel="stylesheet", type="type/css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <h1>Advanced HTML Animals</h1>
+        <!-- Here is our main header that is used across all the pages of our 
+            website -->
 
-        <dl>
-            <dt>Llama</dt>
-            <dd>
-                Tall, woolly quadruped, pointy ears. Sometimes rideable, but 
-                grumpy and spits a lot. Big fan of list items.
-            </dd>
-            <dt>Anaconda</dt>
-            <dd>
-                A very large constrictor snake; travels rapidly by way of 
-                anchors to sneak up on his prey.
-            </dd>
-            <dt>Hippopotamus</dt>
-            <dd>
-                His description is bottomless.
-            </dd>
-        </dl>
+        <header>
+            <h1>Osso buco</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- A Search form is another common non-linear way to navigate 
+                through a website. -->
+        
+            <form>
+                <input type="search" name="q" placeholder="Search query" />
+                <input type="submit" value="Go!" />
+            </form>
+        </nav>
+
+        <!-- Here is our page's main content -->
+
+        <main>
+            <!-- It contains an article -->
+
+            <article>
+                <h2>Everything You Need to Know About Osso Buco</h2>
+
+                <p>
+                    There’s nothing more comforting on a cold winter’s day than 
+                    enjoying a hearty braised dish. Osso buco is a tender and 
+                    delicious dish that originates from northern Italy. As a 
+                    delectable example of traditional Lombard cuisine, this 
+                    specialty dish combines cross-cut veal shanks with vegetables, 
+                    white wine, and broth. The defining feature of osso buco is 
+                    the large bone and rich marrow centre, with this prized 
+                    delicacy ideal for slow cooking and paddock-to-plate eating. 
+                    Osso buco is a delicious and luxurious meal that’s perfect for 
+                    winter nights and long meals with the people you love. 
+                </p>
+
+                <h3>A short history of osso buco</h3>
+
+                <p>
+                    Osso buco, or ossobuco as it’s sometimes written, literally 
+                    means “bone with a hole”. While the early history of this 
+                    dish is uncertain, it’s thought to have originated in Lombardy 
+                    during the early 19th century. It wasn’t included in Italian 
+                    cookbooks until much later, however, becoming famous beyond 
+                    its homeland when it traveled with emigrants to the new world. 
+                    This much-loved dish caught the world’s attention when it was 
+                    included in recipe books outside Italy, including Art Culinaire 
+                    Moderne by Henri-Paul Pellaprat and Italian Food by Elizabeth 
+                    David.
+                </p>
+
+                <p>
+                    Osso buco is the perfect combination of simplicity and luxury. 
+                    While it may have a relatively low cost and involve very little 
+                    preparation, you get to enjoy a tender and comfortable culinary 
+                    experience. It was originally a seasonal dish to be enjoyed in 
+                    winter, warming the household and boosting the mood of everyone 
+                    within smelling distance. Osso buco has been through many changes 
+                    over the years, with lemons and tomatoes added to some recipes 
+                    and global variations adding flavours from Asia, the Americas, 
+                    and beyond. 
+                </p>
+
+                <h3>The nutritional benefits of slow cooking</h3>
+
+                <p>
+                    Osso buco should always be enjoyed slowly. It takes a while for 
+                    the delicious flavours to emerge from this cut, with patience 
+                    leading to maximum tenderness and taste. Slow cooking also 
+                    offers a number of nutritional benefits, especially when you 
+                    include bones. The nutrients in red meat remain more stable 
+                    when cooked slowly, and they’re also more likely to be 
+                    reabsorbed as the meat changes form over time. 
+                </p>
+
+                <p>
+                    If you cook meat in a liquid at low heat, you can reduce the 
+                    number of cell-damaging compounds known as AGEs (advanced 
+                    glycation end products). This offers a number of health 
+                    benefits, with AGEs linked with inflammation, diabetes, 
+                    kidney disease, and even Alzheimer’s. Cooking slowly also 
+                    leads to more tender results, and as a bonus, it helps to 
+                    improve yields as meat shrinks less. When you cook slowly with 
+                    bones, you get access to extra nutrients. The bones in 
+                    osso buco meat are full of vital micronutrients, including 
+                    calcium, phosphorus, sodium, and magnesium.
+                </p>
+            </article>
+
+            <!-- the aside content can also be nested within the main content -->
+
+            <aside>
+                <li><a href="https://provenir.com.au/recipes/everything-you-need-to-know-about-osso-buco/">
+                    View all about ossobuco</a></li>
+                <li><a href="https://www.youtube.com/watch?v=Eyt54Z9dUUA">
+                    Tasty But Simple Ossobuco Recipe</a></li>
+                <li><a href="https://www.youtube.com/watch?v=T1vQXoLjUIM">
+                    The Famous Italian OSSO BUCO</a></li>
+               
+            </aside>
+        </main>
+
+        <!-- And here is our main footer that is used across all the pages of our 
+            website -->
+        
+        <footer>
+            <p>©Copyright 2050 by nobody. All rights reversed.</p>
+            <p>The text in the article in the webpage was sourced
+                from <a href="https://provenir.com.au/recipes/everything-you-need-to-know-about-osso-buco/">
+                    provenir website
+                </a> and its only meant for active learning and demonstrations.</p>
+        </footer>
     </body>
 </html>
