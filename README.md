@@ -50,4 +50,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Advanced HTML text tasks</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/22-HTML-for-structuring-content">
         Marking up document and website structure</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/23-non-semanic-wrappers/span">
+        Marking up text using <span> inline non-semantic element</a></li>
 </ol>
