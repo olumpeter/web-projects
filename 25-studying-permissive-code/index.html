@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta name="author" content="Peter Olum"/>
+        <meta name="description" content="Studying permissive code: This web
+        project is meant to study the permissive nature of HTML code. By 
+        permissive, I mean that HTML is robust because it doesn't suffer from
+        syntax error. This means that the page still displays even if there are 
+        syntax errors in the HTML code.
+        
+        The code in this webpage is deliberately written with some built-in 
+        errors for us to explore (the HTML markup is said to be badly-formed, 
+        as opposed to well-formed)." />
+
+        <title>Horizontal rule</title>
+    </head>
+    <body>
+        <h1>HTML debugging examples</h1>
+
+        <p>Unclosed elements: What causes errors in HTML?
+
+        <ul>
+        <li>Unclosed elements: If an element is <strong>not closed properly,
+            then its effect can spread to areas you didn't intend
+
+        <li>Badly nested elements: Nesting elements properly is also very important
+            for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
+            what is this?</em>
+
+        <li>Unclosed attributes: Another common source of HTML problems. Let's
+            look at an example: <a href="https://www.mozilla.org/>link to Mozilla
+            homepage</a>
+        </ul>
+    </body>
+</html>
