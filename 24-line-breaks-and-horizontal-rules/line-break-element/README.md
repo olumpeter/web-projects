@@ -5,8 +5,7 @@
  ## How you can access this live website
 <p>Use the following URL:</p>
 <ul>
-  <li>https://olumpeter.github.io/web-projects/24-line-breaks-and-horizontal-rules
-/line-break-element/</li>
+  <li>https://olumpeter.github.io/web-projects/24-line-breaks-and-horizontal-rules/line-break-element/</li>
 </ul>
 <p>or click the following link:</p> 
 <ul>
