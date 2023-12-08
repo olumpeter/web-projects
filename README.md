@@ -58,4 +58,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Marking up text using <code>&lt;br&gt;</code> line break element</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/24-line-breaks-and-horizontal-rules/thematic-break-element">
         Marking up text using <code>&lt;br&gt;</code> line break element</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/25-studying-permissive-code">
+        Studying permissive code</code> line break element</a></li>
 </ol>
