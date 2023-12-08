@@ -8,7 +8,7 @@ The code in this webpage is deliberately written with some built-in errors for u
 <ul>
   <li>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">paragraph</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">list item</a> elements have no closing tags. Looking at the image above, this doesn't seem to have affected the markup rendering too badly, as it is easy to infer where one element should end and another should begin.</li>
   <li>The first <code>&lt;strong&gt;</code> element has no closing tag. This is a bit more problematic, as it isn't easy to tell where the element is supposed to end. In fact, the whole of the rest of the text has been strongly emphasized.</li>
-  <li>This section is badly nested: <code>&lt;strong&gt;strong &lt;em&gt;strong emphasized?&lt;/strong&gt; what is this?&lt;/em&lt;.</code> It is not easy to tell how this has been interpreted because of the previous problem.</li>
+  <li>This section is badly nested: <code>&lt;strong&gt;strong &lt;em&gt;strong emphasized?&lt;/strong&gt; what is this?&lt;/em&gt;.</code> It is not easy to tell how this has been interpreted because of the previous problem.</li>
   <li>The <code>href</code> attribute value is missing a closing double quote. This seems to have caused the biggest problem — the link has not rendered at all.</li>
 </ul>
 
