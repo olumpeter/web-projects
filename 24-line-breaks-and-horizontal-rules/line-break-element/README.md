@@ -10,7 +10,6 @@
 </ul>
 <p>or click the following link:</p> 
 <ul>
-  <li><a href="https://olumpeter.github.io/web-projects/24-line-breaks-and-horizontal-rules
-/line-break-element/">
+  <li><a href="https://olumpeter.github.io/web-projects/24-line-breaks-and-horizontal-rules/line-break-element/">
     Visit website</a></li>
 </ul>
