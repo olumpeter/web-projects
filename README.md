@@ -52,6 +52,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Marking up document and website structure</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/23-non-semanic-wrappers/span">
         Marking up text using <code>&lt;span&gt;</code> inline non-semantic element</a></li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/23-non-semanic-wrappers/span">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/23-non-semanic-wrappers/div">
         Marking up text using <code>&lt;div&gt;</code> block level non-semantic element</a></li>
 </ol>
