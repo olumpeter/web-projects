@@ -1,4 +1,4 @@
-# Marking up text using &lt;span&gt; inline non-semantic element
+# Marking up text using <code>&lt;span&gt;</code> inline non-semantic element
 
  <code>&lt;span&gt;</code> is an inline non-semantic element, which you should only use if you can't think of a better semantic text element to wrap your content, or don't want to add any specific meaning. 
 
