@@ -54,4 +54,8 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Marking up text using <code>&lt;span&gt;</code> inline non-semantic element</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/23-non-semanic-wrappers/div">
         Marking up text using <code>&lt;div&gt;</code> block level non-semantic element</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/24-line-breaks-and-horizontal-rules/line-break-element">
+        Marking up text using <code>&lt;br&gt;</code> line break element</a></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/24-line-breaks-and-horizontal-rules/thematic-break-element">
+        Marking up text using <code>&lt;br&gt;</code> line break element</a></li>
 </ol>
