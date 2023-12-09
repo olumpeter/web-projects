@@ -62,4 +62,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Studying permissive code</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/26-marking-up-a-letter">
         Marking up a letter</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/27-structuring-a-page-of-content">
+        Structuring a page of content</li>
 </ol>
