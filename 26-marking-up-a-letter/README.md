@@ -13,4 +13,8 @@ This involves:
 - Marking up semester start dates, study subjects and exotic dances using appropriate list type
   - You should markup semester start dates as an unordered list (&lt;ul&gt;/&lt;li&gt;), or arguably an ordered list (&lt;ol&gt;/&lt;li&gt;) — either is ok
   - Marking up study subjects as an ordered list (&lt;ol&gt;/&lt;li&gt;)
-  - Marking up the exotic dances as a description list (&lt;dl&gt;/&lt;dd&gt;/&lt;dt&gt;) 
+  - Marking up the exotic dances as a description list (&lt;dl&gt;/&lt;dd&gt;/&lt;dt&gt;)
+- Marking up the two addresses using the &lt;address&gt; elements. You should make each line of the address sit on a new line using the &lt;br&gt; elements.
+
+## Inline semantics
+
