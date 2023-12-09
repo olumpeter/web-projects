@@ -34,7 +34,7 @@ This involves:
 
 ## Other tasks
 
-Use the <code><a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a></code> to validate your HTML. 
+Use the <a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a> to validate your HTML. 
 
  ## How you can access this live website
  
