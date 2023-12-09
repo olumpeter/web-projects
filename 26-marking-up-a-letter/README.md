@@ -28,10 +28,10 @@ This involves:
 
 ## The head of the document
 
-- The character set of the document should be specified as utf-8 using <code>&lt;meta charset="utf-8"&gt;</code> inside the &lt;head&gt; element.
-- The author of the letter should be specified in an appropriate meta tag using <code>&lt;meta name="author" content="Dr. Eleanor Gaye"&gt;/code> inside the &lt;head&gt; element.
+- The character set of the document should be specified as utf-8 using <code>&lt;meta charset="utf-8"&gt;</code> inside the <code>&lt;head&gt;<code> element.
+- The author of the letter should be specified in an appropriate meta tag using <code>&lt;meta name="author" content="Dr. Eleanor Gaye"&gt;/code> inside the <code>&lt;head&gt;</code> element.
 - The provided CSS should be included in a file called style.css in a folder called styles and linked to the web page using <code><link href="styles/style.css", rel="stylesheet"></code>
 
 ## Other tasks
 
-Use the <a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a> to validate your HTML. 
+Use the <code><a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a></code> to validate your HTML. 
