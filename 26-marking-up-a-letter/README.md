@@ -23,4 +23,6 @@ This involves:
 - The five acronyms/abbreviations ("PhD", "HTML", "CSS", "BC" and "Esq") in the main text of the letter should be marked up to provide expansions of each acronym/abbreviation using <code>&lt;abbr&gt;</code> element with a title attribute. For example, <code>&lt;abbr title="Cascading Style Sheets"&gt;CSS&lt;/abbr&gt;</code>
 - The six sub/superscripts (<code>H<sub>2</sub>O</code>, <code>C<sub>14</sub>H<sub>12</sub>O<sub>12</sub></code>, <code>30<sup>o</sup>C</code>, <code>86<sup>o</sup>F</code>, <code>3 × 10<sup>3</sup></code>, and <code>3 × 10<sup>4</sup></code>) should be marked up appropriately using either <code>&lt;sub&gt;</code> or <code>&lt;sup&gt;</code> HTML elements.
 - At least two appropriate words in the text should be marked up with strong importance/emphasis using either the <code>&lt;strong&gt;</code> element or <code>&lt;em&gt;</code> element.
+- Add a hyperlink to the phrases "important university dates" and "exotic dance research page." with appropriate links and titles. For the location that the links point to, just use http://example.com. This should be marked using &lt;a&gt; element with a reasonable word to make that link.
+- The university motto quote and citation should be wrapped in a &lt;q&gt; element, and "The memoirs of Bill S Preston, Esq" should be wrapped in a &lt;cite&gt; element.
 
