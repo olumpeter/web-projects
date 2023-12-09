@@ -17,4 +17,7 @@ This involves:
 - Marking up the two addresses using the <code>&lt;address&gt;</code> elements. You should make each line of the address sit on a new line using the <code>&lt;br&gt;</code> elements.
 
 ## Inline semantics
+- The names of the sender and receiver (and "Tel" and "Email") should be marked up with strong importance by wrapping them in a &lt;strong&gt; element.
+- The four dates in the document should be given appropriate elements containing machine-readable dates using a &lt;time&gt; element. Each one should have a datetime attribute containing a machine readable date. For example &lt;time datetime="2016-01-20"&gt;20 January 2016&gt;/time&gt;
+- 
 
