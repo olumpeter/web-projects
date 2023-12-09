@@ -5,7 +5,7 @@ This project helps you to actively learn text basic and advanced HTML text forma
 ## Block/structural semantics
 
 This involves:
-- structuring the overall document with an appropriate structure including <code>&lt;DOCTYPE html&gt;</code>, and <code>&lt;html lang="en-US"&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements.
+- structuring the overall document with an appropriate structure including <code>&lt;!DOCTYPE html&gt;</code>, and <code>&lt;html lang="en-US"&gt;</code>, <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> elements.
 - marking up the letter with a structure of paragraphs and headings.
   - The "Re:" in the letter should be the only level one heading marked using <code>&lt;h1&gt;</code>.
   - HTML element while the sections in the letter such as "Starting dates", "Subjects of study" and "Exotic dance moves" should be level 2 headers marked using <code>&lt;h1&gt;</code> HTML element.
