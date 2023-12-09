@@ -26,3 +26,12 @@ This involves:
 - Add a hyperlink to the phrases "important university dates" and "exotic dance research page." with appropriate links and titles. For the location that the links point to, just use http://example.com. This should be marked using &lt;a&gt; element with a reasonable word to make that link.
 - The university motto quote and citation should be wrapped in a <code>&lt;q&gt;</code> element, and "The memoirs of Bill S Preston, Esq" should be wrapped in a <code>&lt;cite&gt;</code> element.
 
+## The head of the document
+
+- The character set of the document should be specified as utf-8 using <code>&lt;meta charset="utf-8"&gt;</code> inside the &lt;head&gt; element.
+- The author of the letter should be specified in an appropriate meta tag using <code>&lt;meta name="author" content="Dr. Eleanor Gaye"&gt;/code> inside the &lt;head&gt; element.
+- The provided CSS should be included in a file called style.css in a folder called styles and linked to the web page using <code><link href="styles/style.css", rel="stylesheet"></code>
+
+## Other tasks
+
+Use the <a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a> to validate your HTML. 
