@@ -4,6 +4,7 @@
 </p>
 
 <h2>Block/structural semantics</h2>
+
 <p>
   A well structured page has the following blocks/structural semantics:
 </p>
@@ -33,3 +34,37 @@
 </dl>
 
 <h2>Other tasks</h2>
+
+<dl>
+  <dt> You should link the CSS style sheet in the styles folder using the following element</dt>
+  <dd>
+    <code>&lt;link href="styles/style.css" rel="stylesheet"&gt;</code>
+  </dd
+    <dt>
+      You should validate your HTML document using the <code><a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a></code>
+    </dt>
+  <dd>
+    It's expected that all should validate apart from the Google Font link element
+  </dd>
+</dl>
+
+<h2>How you can access this live website</h2>
+ 
+<p>Use the following URL:</p>
+<ul>
+  <li>https://olumpeter.github.io/web-projects/27-structuring-a-page-of-content/</li>
+</ul>
+<p>or click the following link:</p> 
+<ul>
+  <li><a href="https://olumpeter.github.io/web-projects/27-structuring-a-page-of-content/">
+    Visit website</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
