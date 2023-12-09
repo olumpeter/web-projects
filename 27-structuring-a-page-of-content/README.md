@@ -41,7 +41,7 @@
     <code>&lt;link href="styles/style.css" rel="stylesheet"&gt;</code>
   </dd
     <dt>
-      You should validate your HTML document using the <code><a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a></code>
+      You should validate your HTML document using the <a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a>
     </dt>
   <dd>
     It's expected that all should validate apart from the Google Font link element
