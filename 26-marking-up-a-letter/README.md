@@ -28,7 +28,7 @@ This involves:
 
 ## The head of the document
 
-- The character set of the document should be specified as utf-8 using <code>&lt;meta charset="utf-8"&gt;</code> inside the <code>&lt;head&gt;<code> element.
+- The character set of the document should be specified as utf-8 using <code>&lt;meta charset="utf-8"&gt;</code> inside the <code>&lt;head&gt;</code> element.
 - The author of the letter should be specified in an appropriate meta tag using <code>&lt;meta name="author" content="Dr. Eleanor Gaye"&gt;/code> inside the <code>&lt;head&gt;</code> element.
 - The provided CSS should be included in a file called style.css in a folder called styles and linked to the web page using <code><link href="styles/style.css", rel="stylesheet"></code>
 
