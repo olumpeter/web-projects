@@ -22,4 +22,5 @@ This involves:
 - The first address and first date in the letter should be given a class attribute value of <code>"sender-column";</code> the CSS you'll add later will then cause these to be right aligned, as should be the case in a classic letter layout.
 - The five acronyms/abbreviations ("PhD", "HTML", "CSS", "BC" and "Esq") in the main text of the letter should be marked up to provide expansions of each acronym/abbreviation using <code>&lt;abbr&gt;</code> element with a title attribute. For example, <code>&lt;abbr title="Cascading Style Sheets"&gt;CSS&lt;/abbr&gt;</code>
 - The six sub/superscripts (<code>H<sub>2</sub>O</code>, <code>C<sub>14</sub>H<sub>12</sub>O<sub>12</sub></code>, <code>30<sup>o</sup>C</code>, <code>86<sup>o</sup>F</code>, <code>3 × 10<sup>3</sup></code>, and <code>3 × 10<sup>4</sup></code>) should be marked up appropriately using either <code>&lt;sub&gt;</code> or <code>&lt;sup&gt;</code> HTML elements.
+- At least two appropriate words in the text should be marked up with strong importance/emphasis using either the &lt;strong&gt; element or &lt;em&gt; element.
 
