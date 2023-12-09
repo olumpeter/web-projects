@@ -35,3 +35,15 @@ This involves:
 ## Other tasks
 
 Use the <code><a href="https://validator.w3.org/" title="Validate HTML document">W3C HTML validator</a></code> to validate your HTML. 
+
+ ## How you can access this live website
+ 
+<p>Use the following URL:</p>
+<ul>
+  <li>https://olumpeter.github.io/web-projects/26-marking-up-a-letter/</li>
+</ul>
+<p>or click the following link:</p> 
+<ul>
+  <li><a href="https://olumpeter.github.io/web-projects/26-marking-up-a-letter/">
+    Visit website</a></li>
+</ul>
