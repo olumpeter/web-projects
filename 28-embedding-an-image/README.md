@@ -10,8 +10,8 @@ To avoid hotlinking to the image, its advisable to download it first to a folder
  
 Use the following URL:
 
-- https://olumpeter.github.io/web-projects/28-embedding-an-image/</li>
+&nbsp;https://olumpeter.github.io/web-projects/28-embedding-an-image/</li>
 
 or click the following link:
 
-- <a href="https://olumpeter.github.io/web-projects/28-embedding-an-image/">Visit website</a>
+&nbsp;<a href="https://olumpeter.github.io/web-projects/28-embedding-an-image/">Visit website</a>
