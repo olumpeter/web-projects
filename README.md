@@ -64,4 +64,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Marking up a letter</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/27-structuring-a-page-of-content">
         Structuring a page of content</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/28-embedding-an-image">
+        Embedding an image</li>
 </ol>
