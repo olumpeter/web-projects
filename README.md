@@ -66,4 +66,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Structuring a page of content</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/28-embedding-an-image">
         Embedding an image</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/29-creating-a-figure">
+        Creating a figure</li>
 </ol>
