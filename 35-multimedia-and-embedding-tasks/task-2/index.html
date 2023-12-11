@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Multimedia and embedding task 2: This task 
+    tests your ability to put together a full-featured video player with multiple 
+    sources using &lt;video&gt; elements accompanied with the controls attribute 
+    to ensure we cam easily play the audio, and a fallback text to be displayed 
+    in an event that the browser cannot play the video. Use and &lt;source&gt; 
+    to add the multiple video sources so that you can support older browsers that 
+    don't support MP4 and instead support WebM. Ensure that you specify the media 
+    type for each video by including the type attribute in each &lt;source&gt; 
+    element. Use the &lt;track&gt; element to display subtitles, with appropriate 
+    kind, src, and srclang attributes.  Also, make the embedded video 320 by 240 
+    using the width and height attributes, make sure that no sound is played 
+    using the muted attribute. Note that the subtitles will not load if you try 
+    to run the example locally, due to browser security policy. To see the 
+    subtitles you must run the example from an actual web server.">
+
+    <title>Multimedia and embedding task 2</title>
+  </head>
+  <body>
+    <h1>Embedding a full-featured video player with multiple sources</h1>
+
+    <video controls width="320" height="240" muted>
+      <source src="../media/video.mp4" type="video/mp4">
+      <source src="../media/video.webm" type="video/webm">
+      <track kind="subtitles" src="../media/subtitles_en.vtt" srclang="en">
+      <p>
+        Your browser doesn't support HTML5 video. Here is a 
+        <a href="media/video.mp4">link to the video</a> instead.
+      </p>
+    </video>
+    
+  </body>
+</html>
