@@ -78,4 +78,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Embedding a video</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/32-embedding-a-multiple-format-video">
         Embedding a multiple format video</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/33-embedding-a-multiple-format-video-with-extra-video-features">
+        Embedding a multiple format video with extra video features</li>
 </ol>
