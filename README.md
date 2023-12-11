@@ -70,4 +70,8 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Creating a figure</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/30-images-in-html/Task-1">
         Images in HTML: Task 1</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/30-images-in-html/Task-2">
+        Images in HTML: Task 2</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/30-images-in-html/Task-3">
+        Images in HTML: Task 3</li>
 </ol>
