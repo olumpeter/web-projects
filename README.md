@@ -68,4 +68,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Embedding an image</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/29-creating-a-figure">
         Creating a figure</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/30-images-in-html/Task-1">
+        Images in HTML: Task 1</li>
 </ol>
