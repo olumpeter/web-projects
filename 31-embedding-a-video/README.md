@@ -7,10 +7,10 @@ This project demonstrates how you can embed a video in a page using the <code>&l
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/30-images-in-html/Task-3/
+    https://olumpeter.github.io/web-projects/Embedding a video/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/30-images-in-html/Task-3/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/Embedding a video/">Visit website</a>
   </dd>
 </dl>
