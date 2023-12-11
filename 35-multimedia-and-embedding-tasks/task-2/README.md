@@ -2,7 +2,7 @@
 
 This task tests your ability to:
 
-- put together a full-featured video player with multiple sources using <code>&lt;video&gt;</code> elements accompanied with the <code>controls<code> attribute to ensure you can easily play the audio, and a fallback text to be displayed in an event that the browser cannot play the video. 
+- put together a full-featured video player with multiple sources using <code>&lt;video&gt;</code> elements accompanied with the <code>controls</code> attribute to ensure you can easily play the audio, and a fallback text to be displayed in an event that the browser cannot play the video. 
 - use <code>&lt;source&gt;</code> element to add the multiple video sources so that you can support older browsers that don't support MP4 and instead support WebM.
 - ensure that you specify the media type for each video by including the <code>type</code> attribute in each <code>&lt;source&gt;</code> element. Use the &lt;track&gt; element to display subtitles, with appropriate <code>kind</code>, <code>src</code>, and <code>srclang</code> attributes.
 - make the embedded video 320 by 240 using the <code>width</code> and <code>height</code> attributes
