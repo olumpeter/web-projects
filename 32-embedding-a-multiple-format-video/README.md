@@ -1,6 +1,6 @@
 # Embedding a multiple format video
 
-This project demonstrates how you can include WebM and MP4 sources using the <code>&lt;source&gt;</code> element and the type attribute.so that your video can play on most platforms and browser.
+This project demonstrates how you can include WebM and MP4 sources using the <code>&lt;source&gt;</code> element and the <code>type</code> attribute.so that your video can play on most platforms and browser.
 
 ## How you can access this live website
 
