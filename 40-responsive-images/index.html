@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Creating responsive images  using 
+    &lt;img&gt; and &lt;picture&gt; elements: This project shows how to create 
+    responsive images using &lt;img&gt; and &lt;picture&gt; elements. It will 
+    show you how you can use srcset and sizes attributes to provide several 
+    additional source images along with hints to help the browser pick the 
+    right one. The srcset attribute defines the set of images we will allow the 
+    browser to choose between, and what size each image is. Each set of image 
+    information in the srcset attribute is separated from the previous one by a 
+    comma. The image information comprises of the image filename, a space, and 
+    the image's intrinsic width in pixels, e.g. &quot;elva-fairy-480w.jpg 480w&quot;. 
+    The sizes attribute defines a set of media conditions (e.g. screen widths) and 
+    indicates what image size would be best to choose, when certain media conditions 
+    are true. For example, the sizes attribute is comprised of a media condition 
+    that is specified as &quot;(max-width: 600px)&quot;, meaning &quot;when the 
+    viewport width is 600 pixels or less&quot;, then a space, followed by the width 
+    of the slot the image will fill when the media condition is true (480px). Note 
+    that Older browsers that don't support these features will just ignore them. 
+    Instead, those browsers will go ahead and load the image referenced in the src 
+    attribute as normal.">
+
+    <title>Playing with SVG</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h1>My website with non-responsive images</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
+                eget venenatis ligula. Ut lacinia at dolor vitae pulvinar. 
+                Aliquam pretium dignissim eros. Integer faucibus, dui non aliquet 
+                bibendum, lectus orci lobortis odio, ornare porttitor est tellus 
+                eget velit. Nulla eros elit, malesuada id neque vel, viverra 
+                vehicula neque. Nullam auctor turpis non leo iaculis finibus. 
+                Quisque blandit arcu venenatis libero tempor, ac pulvinar ligula 
+                dapibus.
+            </p>
+
+            <picture>
+              <source media="(max-width: 799px)" srcset="images/elva-480w-close-portrait.jpg">
+              <source media="(min-width: 800px)" srcset="images/elva-800w.jpg">
+              <img src="images/elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+            </picture>
+
+            <p>
+                Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula 
+                aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros 
+                ornare consectetur. Vestibulum convallis condimentum varius. 
+                Maecenas rutrum porta varius. Phasellus volutpat sem id sagittis 
+                luctus. Morbi vitae quam vitae nisi iaculis dignissim.
+            </p>
+
+            <img srcset="images/elva-fairy-480w.jpg 480w,
+                         images/elva-fairy-800w.jpg 800w",
+                 sizes="(max-width: 600px)" 480px, 800px
+                 src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+            
+            <p>Header image originally by 
+                <a href="https://www.flickr.com/photos/miwok/17086751527/">
+                    Miwok</a>.</p>
+        </section>
+    </main>
+  </body>
+</html>
