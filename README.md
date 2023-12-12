@@ -90,4 +90,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Multimedia and embedding task 3</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/36-classic-embedding-uses">
         Classic embedding uses</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/37-creates-a-circle-and-a-rectangle">
+        Creating a circle and a rectangle using <code>&lt;svg&gt;</code>, <code>&lt;rect&gt;</code>, and  <code>&lt;circle&gt;</code> elements.</li>
 </ol>
