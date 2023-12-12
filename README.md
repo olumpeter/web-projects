@@ -88,6 +88,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Multimedia and embedding task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/35-multimedia-and-embedding-tasks/task-3">
         Multimedia and embedding task 3</li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/36-classic-embedding-uses/task-3">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/36-classic-embedding-uses">
         Classic embedding uses</li>
 </ol>
