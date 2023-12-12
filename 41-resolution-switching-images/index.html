@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Resolution switching: Same size, 
+    different resolutions. This projects shows how you  you can allow the 
+    browser to choose an appropriate resolution image by using srcset attribute 
+    with x-descriptors and without sizes attribute - the browser works out what 
+    resolution the display is that it is being shown on, and serves the most 
+    appropriate image referenced in the srcset. So if the device accessing the 
+    page has a standard/low resolution display, with one device pixel representing 
+    each CSS pixel, the elva-fairy-320w.jpg image will be loaded (the 1x is implied, 
+    so you don't need to include it.) If the device has a high resolution of two 
+    device pixels per CSS pixel or more, the elva-fairy-640w.jpg image will be 
+    loaded. The 640px image is 93KB, whereas the 320px image is only 39KB..">
+
+    <title>Resolution switching</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <img
+      srcset="images/elva-fairy-320w.jpg,
+              images/elva-fairy-480w.jpg 1.5x,
+              images/elva-fairy-640w.jpg 2x"
+      src="images/elva-fairy-640w.jpg"
+      alt="Elva dressed as a fairy"
+      id="img"
+      onload="showUrl()">
+
+      <script src="scripts/script.js"></script>
+  </body>
+</html>
