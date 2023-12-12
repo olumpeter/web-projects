@@ -96,4 +96,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Playing with SVG</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/39-non-responsive-images">
         Non-responsive images</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/40-responsive-images">
+        Creating responsive images  using <code>&lt;img&gt;</code> and <code>&lt;picture&gt;</code> elements</li>
 </ol>
