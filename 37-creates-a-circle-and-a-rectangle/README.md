@@ -1,4 +1,4 @@
-# Creating a circle and a rectangle using <code>&lt;svg&gt;</code> element
+# Creating a circle and a rectangle using <code>&lt;svg&gt;</code>, <code>&lt;rect&gt;</code>, and  <code>&lt;circle&gt;</code> elements.
 
 This project demonstrates how you can create a circle and a rectangle inside the <code>&lt;svg&gt;</code> element using the <code>&lt;rect&gt;</code> and  <code>&lt;circle&gt;</code> elements.
 
