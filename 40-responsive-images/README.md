@@ -1,6 +1,6 @@
 # Creating responsive images  using <code>&lt;img&gt;</code> and <code>&lt;picture&gt;<code> elements
 
-This project shows how you can create responsive images using <code>&lt;img&gt;</code> and <code>&lt;picture&gt;<code> elements. It will show you how you can use <code>srcset</code> and <code>sizes</code> attributes to provide several additional source images along with hints to help the browser pick the right one. The <code>srcset</code? attribute defines the set of images we will allow the browser to choose between, and what size each image is. Each set of image information in the <code>srcset</code> attribute is separated from the previous one by a comma. The image information comprises of
+This project shows how you can create responsive images using <code>&lt;img&gt;</code> and <code>&lt;picture&gt;</code> elements. It will show you how you can use <code>srcset</code> and <code>sizes</code> attributes to provide several additional source images along with hints to help the browser pick the right one. The <code>srcset</code? attribute defines the set of images we will allow the browser to choose between, and what size each image is. Each set of image information in the <code>srcset</code> attribute is separated from the previous one by a comma. The image information comprises of
   1. the **image filename**,
   1. a space, and
   1. the **image's intrinsic width** in pixels
