@@ -11,7 +11,7 @@ The sizes attribute defines a set of media conditions (e.g. screen widths) and i
   1. a space, followed by
   1. the width of the slot the image will fill when the media condition is true (480px).
 
-Note that older browsers that don't support these features will just ignore them. Instead, those browsers will go ahead and load the image referenced in the <code>src<code> attribute as normal.
+Note that older browsers that don't support these features will just ignore them. Instead, those browsers will go ahead and load the image referenced in the <code>src</code> attribute as normal.
 
 ## How you can access this live website
 
