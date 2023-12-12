@@ -94,4 +94,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Creating a circle and a rectangle using <code>&lt;svg&gt;</code>, <code>&lt;rect&gt;</code>, and  <code>&lt;circle&gt;</code> elements.</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/38-playing-with-svg">
         Playing with SVG</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/39-non-responsive-images">
+        Non-responsive images</li>
 </ol>
