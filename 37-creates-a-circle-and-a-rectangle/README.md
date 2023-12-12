@@ -5,10 +5,10 @@
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/34-embedding-a-multiple-format-audio/
+    https://olumpeter.github.io/web-projects/37-creates-a-circle-and-a-rectangle/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/34-embedding-a-multiple-format-audio/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/37-creates-a-circle-and-a-rectangle/">Visit website</a>
   </dd>
 </dl>
