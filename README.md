@@ -100,4 +100,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Creating responsive images  using <code>&lt;img&gt;</code> and <code>&lt;picture&gt;</code> elements</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/41-resolution-switching-images">
         Resolution switching: Same size, different resolutions</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/42-mozilla-splash-page">
+        Mozilla splash page</li>
 </ol>
