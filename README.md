@@ -104,4 +104,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Mozilla splash page</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/43-creating-your-first-table">
         Creating your first table</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/44-table-headers">
+        Table headers</li>
 </ol>
