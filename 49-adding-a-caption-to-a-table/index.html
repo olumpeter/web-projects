@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Adding a caption to a table using the 
+    &lt;caption&gt; element: The &lt;caption&gt; element is normally nested 
+    inside the &lt;table&gt; element. The caption is meant to contain a description 
+    of the table contents. This is useful for all readers wishing to get a quick 
+    idea of whether the table is useful to them as they scan the page, 
+    but particularly for blind users. Rather than have a screen reader read out 
+    the contents of many cells just to find out what the table is about, the user 
+    can rely on a caption and then decide whether or not to read the table in 
+    greater detail. A caption is placed directly beneath the &lt;table&gt; tag.">
+
+    <title>&lt;colgroup&gt; and &lt;col&gt; elements</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+       <h1>School timetable</h1>
+
+       <table>
+        <caption>
+          Florence's weekly lesson timetable
+        </caption>
+        <colgroup>
+          <col>
+          <col style="background-color: #DCC48E;">
+          <col style="background-color: #97DB9A;">
+          <col>
+          <col style="background-color: #DCC48E;">
+          <col style="background-color: #97DB9A;">
+          <col span="2" style="width: 42px;">
+        </colgroup>
+        <tr>
+          <th>&nbsp;</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+        <tr>
+          <th>1<sup>st</sup> period</th>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>2<sup>nd</sup> period</th>
+          <td>English</td>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>3<sup>rd</sup> period</th>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>4<sup>th</sup> period</th>
+          <td>&nbsp;</td>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>English</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+
+       </table>
+    </body>
+</html>
