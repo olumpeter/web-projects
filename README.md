@@ -110,4 +110,8 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Allowing cells to span multiple rows and columns</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/46-styling-without-col-element">
         Styling without <code>&lt;col&gt;</code></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/47-styling-with-col-element">
+        Styling with <code>&lt;col&gt;</code></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/48-colgroup-and-col">
+        <code>&lt;colgroup&gt;</code> and <code>&lt;col&gt;</code> elements</li>
 </ol>
