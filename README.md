@@ -106,4 +106,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Creating your first table</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/44-table-headers">
         Table headers</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/45-allowing-cells-to-span-multiple-rows-and-columns">
+        Allowing cells to span multiple rows and columns</li>
 </ol>
