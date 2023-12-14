@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Styling without &lt;col&gt;: You can style 
+    an entire column of data all in one place using the &lt;col&gt; and 
+    &lt;colgroup&gt; elements. This project shows you how annoying and inefficient 
+    having to specify styling on columns without using the &lt;col&gt; and 
+    &lt;colgroup&gt; elements -- generally have to specify your styling 
+    information on every &lt;td&gt; or &lt;th&gt; in the column, or use a 
+    complex selector such as :nth-child.">
+
+    <title>Styling without &lt;col&gt;</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+       <h1>Styling without <code>&lt;col&gt;</code></h1>
+      
+       <table>
+        <tr>
+          <th>Data 1</th>
+          <th style="background-color: yellow;">Data 2</th>
+        </tr>
+        <tr>
+          <td>Calcutta</td>
+          <td style="background-color: yellow;">Orange</td>
+        </tr>
+        <tr>
+          <td>Robots</td>
+          <td style="background-color: yellow;">Jazz</td>
+        </tr>
+       </table>
+    </body>
+</html>
