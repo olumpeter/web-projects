@@ -102,4 +102,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Resolution switching: Same size, different resolutions</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/42-mozilla-splash-page">
         Mozilla splash page</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/43-creating-your-first-table">
+        Creating your first table</li>
 </ol>
