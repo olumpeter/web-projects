@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Styling with &lt;col&gt;: You can style 
+    an entire column of data all in one place using the &lt;col&gt; and 
+    &lt;colgroup&gt; elements. It's annoying and inefficient to style on columns 
+    without by to specify your styling information on every &lt;td&gt; or 
+    &lt;th&gt; in the column, or use a complex selector such as :nth-child. 
+    This isn't ideal because as we have to repeat the styling information across 
+    all three cells in the column (we'd probably have a &lt;class&gt; set on all 
+    three in a real project and specify the styling in a separate stylesheet)">
+
+    <title>Styling with &lt;col&gt;</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+       <h1>Styling with &lt;col&gt;</h1>
+      
+       <table>
+        <colgroup>
+          <col />
+          <col style="background-color: yellow;"/>
+        </colgroup>
+        <tr>
+          <th>Data 1</th>
+          <th>Data 2</th>
+        </tr>
+        <tr>
+          <td>Calcutta</td>
+          <td>Orange</td>
+        </tr>
+        <tr>
+          <td>Robots</td>
+          <td>Jazz</td>
+        </tr>
+       </table>
+    </body>
+</html>
