@@ -116,4 +116,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         <code>&lt;colgroup&gt;</code> and <code>&lt;col&gt;</code> elements</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/49-adding-a-caption-to-a-table">
         Adding a caption to a table using the <code>&lt;caption&gt;</code> element</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/50-adding-a-structure-to-a-table">
+        Adding structure with <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, and <code>&lt;tbody&gt;</code></li>
 </ol>
