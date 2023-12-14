@@ -108,4 +108,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Table headers</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/45-allowing-cells-to-span-multiple-rows-and-columns">
         Allowing cells to span multiple rows and columns</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/46-styling-without-col-element">
+        Styling without <code>&lt;col&gt;</code></li>
 </ol>
