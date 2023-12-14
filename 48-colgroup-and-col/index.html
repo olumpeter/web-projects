@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Active learning: &lt;colgroup&gt; and 
+    &lt;col&gt; elements. This project will help you actively learn how to mark 
+    up HTML Tables. It expects you to mark up a timetable of a languages teacher. 
+    On Friday she has a new class teaching Dutch all day, but she also teaches 
+    German for a few periods on Tuesday and Thursdays. She wants to highlight the 
+    columns containing the days she is teaching. The &lt;colgroup&gt; element is 
+    normally added at the top of the table, just underneath the &lt;table&gt; tag. 
+    The &lt;col&gt; element is normally added inside the &lt;colgroup&gt; element. 
+    To add a background-color to a column, value for your style attribute for 
+    Monday and Thursday is background-color:#DCC48E; while that for Tuesday and 
+    Friday is background-color: 97DB9A;. You need to style the column for Saturday 
+    and Sunday to be 42px.">
+
+    <title>Active learning: colgroup and col</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+       <h1>School timetable</h1>
+
+       <table>
+        <colgroup>
+          <col>
+          <col style="background-color: #DCC48E;">
+          <col style="background-color: #97DB9A;">
+          <col>
+          <col style="background-color: #DCC48E;">
+          <col style="background-color: #97DB9A;">
+          <col span="2" style="width: 42px;">
+        </colgroup>
+        <tr>
+          <th>&nbsp;</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+        <tr>
+          <th>1<sup>st</sup> period</th>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>2<sup>nd</sup> period</th>
+          <td>English</td>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>3<sup>rd</sup> period</th>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>4<sup>th</sup> period</th>
+          <td>&nbsp;</td>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>English</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+
+       </table>
+    </body>
+</html>
