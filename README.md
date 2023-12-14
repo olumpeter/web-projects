@@ -114,4 +114,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Styling with <code>&lt;col&gt;</code></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/48-colgroup-and-col">
         <code>&lt;colgroup&gt;</code> and <code>&lt;col&gt;</code> elements</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/49-adding-a-caption-to-a-table">
+        Adding a caption to a table using the <code>&lt;caption&gt;</code> element</li>
 </ol>
