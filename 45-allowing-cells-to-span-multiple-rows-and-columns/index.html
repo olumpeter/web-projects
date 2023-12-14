@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Allowing cells to span multiple rows and 
+    columns: In this project, you need to get &quot;Animals&quot;, 
+    &quot;Hippopotamus&quot;, and &quot;Crocodile&quot; to span across two 
+    columns using the colspan=&quot;2&quot; attribute, and &quot;Horse&quot; 
+    and &quot;Chicken&quot; to span downwards over two rows using the 
+    rowspan=&quot;2&quot; attribute. Both rowspan and colspan attributes accept 
+    a unitless number value, which equals the number of rows or columns you want 
+    spanned.">
+
+    <title>Span multiple rows and columns</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+       <h1>Allowing cells to span multiple rows and columns</h1>
+      
+       <table>
+        <tr>
+          <th colspan="2">Animals</th>
+        </tr>
+        <tr>
+          <th colspan="2">Hippopotamus</th>
+        </tr>
+        <tr>
+          <th rowspan="2">Horse</th>
+          <td>Mare</td>
+        </tr>
+        <tr>
+          <td>Stallion</td>
+        </tr>
+        <tr>
+          <th colspan="2">Crocodile</th>
+        </tr>
+        <tr>
+          <th rowspan="2">Chicken</th>
+          <td>Hen</td>
+        </tr>
+        <tr>
+          <td>Rooster</td>
+        </tr>
+       </table>
+    </body>
+</html>
