@@ -118,4 +118,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Adding a caption to a table using the <code>&lt;caption&gt;</code> element</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/51-nesting-tables">
         Nesting Tables</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/52-using-column-and-row-headers">
+        Using column and row headers</li>
 </ol>
