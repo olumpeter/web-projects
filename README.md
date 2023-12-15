@@ -120,4 +120,8 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Nesting Tables</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/52-using-column-and-row-headers">
         Using column and row headers</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/53-the-id-and-headers-attributes">
+        The id and headers attributes</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/54-structuring-planet-data">
+        Structuring planet data</li>
 </ol>
