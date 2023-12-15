@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="The id and headers attributes: An alternative 
+    to using the scope attribute is to use id and headers attributes to create 
+    associations between headers and cells. The way they are used is as follows:
+    1. You add a unique id to each &lt;th&gt; element.
+    2. You add a headers attribute to each &lt;td&gt; element. Each headers 
+    attribute has to contain a list of the ids of all the &lt;th&gt; elements 
+    that act as a header for that cell, separated by spaces.
+    This gives your HTML table an explicit definition of the position of each 
+    cell in the table, defined by the header(s) for each column and row it is 
+    part of, kind of like a spreadsheet. For it to work well, the table really 
+    needs both column and row headers. Note: This method creates very precise 
+    associations between headers and data cells but it uses a lot more markup and 
+    does not leave any room for errors. The scope approach is usually enough for 
+    most tables.">
+
+    <title>The id and headers attributes</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+       <h1>My spending record</h1>
+
+       <table>
+        <caption>How I chose to spend my money</caption>
+        <thead>
+          <tr>
+            <th id="purchase">Purchase</th>
+            <th id="location">Location</th>
+            <th id="date">Date</th>
+            <th id="evaluation">Evaluation</th>
+            <th id="cost">Cost(&euro;)</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="4">SUM</td>
+            <td>118</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td id="haircut">Haircut</td>
+            <td location haircut>Hairdresser</td>
+            <td date haircut>12/09</td>
+            <td evaluation haircut>Great idea</td>
+            <td cost haircut>30</td>
+          </tr>
+          <tr>
+            <td id="lasagna">Lasagna</td>
+            <td location lasagna>Restaurant</td>
+            <td date lasagna>12/09</td>
+            <td evaluation lasagna>Regrets</td>
+            <td cost lasagna>18</td>
+          </tr>
+          <tr>
+            <td id="shoes">Shoes</td>
+            <td location shoes>Shoeshop</td>
+            <td date shoes>13/09</td>
+            <td evaluation shoes>Big regrets</td>
+            <td cost shoes>65</td>
+          </tr>
+          <tr>
+            <td id="toothpaste">Toothpaste</td>
+            <td location toothpaste>Supermarket</td>
+            <td date toothpaste>13/09</td>
+            <td evaluation toothpaste>Good</td>
+            <td cost toothpaste>5</td>
+          </tr>
+        </tbody>
+       </table>
+    </body>
+</html>
