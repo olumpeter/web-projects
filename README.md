@@ -124,6 +124,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         The id and headers attributes</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/54-structuring-planet-data">
         Structuring planet data</li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/54-structuring-planet-data">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/55-styling-a-biography-page">
         Styling a biography page</li>
 </ol>
