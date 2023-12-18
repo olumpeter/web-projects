@@ -152,4 +152,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Generating content with <code>::before</code> and <code>::after</code> pseudo-elements</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/8a-descendant-combinator">
         CSS Selectors: Descendant combinator</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/8b-child-combinator">
+        CSS Selectors: Child combinator</li>
 </ol>
