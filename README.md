@@ -164,4 +164,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Task 2 - class and id selectors</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/task-3-pseudo-classes-and-pseudo-elements">
         CSS Selectors: Task 3 - Pseudo-classes and pseudo-elements</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/task-4-combinators">
+        CSS Selectors: Task 4 - Combinators</li>
 </ol>
