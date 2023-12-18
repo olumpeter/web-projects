@@ -1,6 +1,6 @@
 # Simple pseudo-class example
 
-Say that you want to make the first paragraph in an article larger and bold, you could use the <code>:first-child</code> pseudo-class selector — this will always target the first child element in the article. All pseudo-classes behave in this same kind of way. They target some bit of your document that is in a certain state, behaving as if you had added a class into your HTML. Other examples are <code>:last-child</code>, <code>:only-child<code>, and <code>:invalid</code>."
+Say that you want to make the first paragraph in an article larger and bold, you could use the <code>:first-child</code> pseudo-class selector — this will always target the first child element in the article. All pseudo-classes behave in this same kind of way. They target some bit of your document that is in a certain state, behaving as if you had added a class into your HTML. Other examples are <code>:last-child</code>, <code>:only-child</code>, and <code>:invalid</code>."
 
 ## How you can access this live website
 
