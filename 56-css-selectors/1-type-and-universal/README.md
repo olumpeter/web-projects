@@ -9,10 +9,10 @@ The **universal selector** is indicated by an asterisk (<code>*</code>). It sele
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/1-type-and-universal/
+    https://olumpeter.github.io/web-projects/56-css-selectors/1-type-and-universal/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/1-type-and-universal/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/56-css-selectors/1-type-and-universal/">Visit website</a>
   </dd>
 </dl>
