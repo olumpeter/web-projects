@@ -160,4 +160,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Subsequent-sibling combinator</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/task-1-type-selectors">
         CSS Selectors: Task 1 - Type selectors</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/task-2-class-and-id-selectors">
+        CSS Selectors: Task 2 - class and id selectors</li>
 </ol>
