@@ -1,0 +1,14 @@
+/* type selectors */
+span {
+    background-color: yellow;
+}
+
+strong,
+em {
+    color: rebeccapurple;
+}
+
+/* Use universal selector to remove the margins on all elements. */
+* {
+    margin: 0;
+}

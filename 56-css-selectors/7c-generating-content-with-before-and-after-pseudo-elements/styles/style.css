@@ -1,0 +1,12 @@
+.box::before {
+    content: "This should show before the other content.";
+}
+
+.box::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid black;
+}

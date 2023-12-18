@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font:
+      1.2em / 1.5 Helvetica Neue,
+      Helvetica,
+      Arial,
+      sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Task 4 */
+
+/* Make any paragraph that directly follows an <h2> element red */
+
+h2 + p {
+    color: red;
+}
+
+/* Remove the bullets and add a 1px grey bottom border only to list items that 
+are a direct child of the ul with a class of list. */
+
+.list > li {
+    list-style: none;
+    border: 1px solid #ccc;
+}
+

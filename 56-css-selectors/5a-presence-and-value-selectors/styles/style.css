@@ -1,0 +1,16 @@
+/* match any list item with a class attribute. */
+li[class] {
+    font-size: 200%;
+}
+
+/* matches a selector with a class of 'a', but not a selector with a class of a
+ with another space-separated class as part of the value.  */
+li[class="a"] {
+    background-color: yellow;
+}
+
+/* match a class of 'a' but also a value that contains the class of 'a' as part of 
+a whitespace-separated list. */
+li[class~="a"] {
+    color: red;
+}

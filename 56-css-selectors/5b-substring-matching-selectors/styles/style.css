@@ -1,0 +1,14 @@
+/* matches any attribute value which starts with a */
+li[class^="a"] {
+    font-size: 200%;
+}
+
+/* matches any attribute value that ends with 'a' */
+li[class$="a"] {
+    background-color: yellow;
+}
+
+/* matches any attribute value where 'a' appears anywhere in the string */
+li[class*="a"] {
+    color: red;
+}

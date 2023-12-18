@@ -1,0 +1,48 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font:
+      1.2em / 1.5 Helvetica Neue,
+      Helvetica,
+      Arial,
+      sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Task 3 */
+
+/* make the link-state orange */
+a:link {
+    color: orange;
+}
+
+/* make visited links green */
+a:visited {
+    color: green;
+}
+
+/* remove the underline on hover. */
+a:hover {
+    text-decoration: none;
+}
+
+/* Make the first element inside the container font-size: 150% */
+.container:first-child {
+    font-size: 150%;
+}
+
+/* make the first line of the first element inside the container red. */
+.container:first-child::first-line {
+    font-size: red;
+}
+
+/* Stripe every other row in the table  */
+tr:nth-child(even) {
+    background-color: #333;
+    color: #fff;
+}
