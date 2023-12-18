@@ -126,4 +126,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Structuring planet data</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/55-styling-a-biography-page">
         Styling a biography page</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/1-type-and-universal">
+        Type and universal selectors</li>
 </ol>
