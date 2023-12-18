@@ -136,4 +136,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Target an element if it has more than one class applied</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/2c-targetting-an-element-if-it-has-more-than-one-class-applied">
         CSS Selectors: ID selectors</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/5a-presence-and-value-selectors">
+        CSS Selectors: Attribute presence and value selectors</li>
 </ol>
