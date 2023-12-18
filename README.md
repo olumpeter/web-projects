@@ -146,4 +146,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: User-action pseudo classes</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/7a-pseudo-elements">
         CSS Selectors: Pseudo-element</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/7b-combining-pseudo-classes-and-pseudo-elements">
+        Combining pseudo-classes and pseudo-elements</li>
 </ol>
