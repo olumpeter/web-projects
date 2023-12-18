@@ -154,4 +154,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Descendant combinator</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/8b-child-combinator">
         CSS Selectors: Child combinator</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/8c-next-sibling-combinator">
+        CSS Selectors: Next-sibling combinator</li>
 </ol>
