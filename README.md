@@ -148,4 +148,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Pseudo-element</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/7b-combining-pseudo-classes-and-pseudo-elements">
         Combining pseudo-classes and pseudo-elements</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/7c-generating-content-with-before-and-after-pseudo-elements">
+        Generating content with <code>::before</code> and <code>::after</code> pseudo-elements</li>
 </ol>
