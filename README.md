@@ -156,4 +156,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Child combinator</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/8c-next-sibling-combinator">
         CSS Selectors: Next-sibling combinator</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/8d-subsequent-sibling-combinator">
+        CSS Selectors: Subsequent-sibling combinator</li>
 </ol>
