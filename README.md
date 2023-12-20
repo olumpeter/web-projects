@@ -182,4 +182,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Cascade, Specificity, and Inheritance: Resetting all property value</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/57-cascade-specificity-and-inheritance/57g-understanding-the-cascade">
         Cascade, Specificity, and Inheritance: Understanding the cascade</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/57-cascade-specificity-and-inheritance/57h-the-cascade-task-1">
+        Cascade, Specificity, and Inheritance: Task 1: The Cascade</li>
 </ol>
