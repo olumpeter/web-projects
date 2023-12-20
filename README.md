@@ -168,4 +168,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Task 4 - Combinators</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/task-5-attribute-selectors">
         CSS Selectors: Task 5 - attribute selectors</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/57-cascade-specificity-and-inheritance/57a-cascade">
+        Cascade, Specificity, and Inheritance: Cascade</li>
 </ol>
