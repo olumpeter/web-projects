@@ -1,6 +1,6 @@
 # Understanding the cascade
 
-The amount of specificity a selector has is measured using three different values (or components), which can be thought of as <code>ID</code>, <code>CLASS</code>, and <code>ELEMENT</code> columns in the hundreds, tens, and ones place:
+The amount of specificity a selector has is measured using three different values (or components), which can be thought of as **ID**, **CLASS**, and **ELEMENT** columns in the hundreds, tens, and ones place:
 
 <dl>
   <code>Identifiers</code>
