@@ -7,10 +7,10 @@ Stylesheets cascade — at a very simple level, this means that the origin, the 
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/56-css-selectors/57a-cascade/
+    https://olumpeter.github.io/web-projects/57-cascade-specificity-and-inheritance/57a-cascade/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/56-css-selectors/57a-cascade/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/56-css-selectors/57-cascade-specificity-and-inheritance/57a-cascade/">Visit website</a>
   </dd>
 </dl>
