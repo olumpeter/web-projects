@@ -7,11 +7,11 @@ In this task, we want you to make your changes by leveraging the order of cascad
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/57-cascade-specificity-and-inheritance/57i-the-cascade-task-2//
+    https://olumpeter.github.io/web-projects/57-cascade-specificity-and-inheritance/57i-the-cascade-task-2/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/57-cascade-specificity-and-inheritance/57i-the-cascade-task-2//">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/57-cascade-specificity-and-inheritance/57i-the-cascade-task-2/">Visit website</a>
   </dd>
 </dl>
 
