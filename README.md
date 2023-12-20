@@ -184,4 +184,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Cascade, Specificity, and Inheritance: Understanding the cascade</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/57-cascade-specificity-and-inheritance/57h-the-cascade-task-1">
         Cascade, Specificity, and Inheritance: Task 1: The Cascade</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/57-cascade-specificity-and-inheritance/57i-the-cascade-task-2">
+        Cascade, Specificity, and Inheritance: Task 2: The Cascade</li>
 </ol>
