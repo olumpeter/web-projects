@@ -1,0 +1,10 @@
+blockquote {
+    background-color: orange;
+    border: 2px solid blue;
+}
+
+/* sets the value of all to unset */
+
+.fix-this {
+    all: unset
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Understanding the cascade: The amount of 
+    specificity a selector has is measured using three different values 
+    (or components), which can be thought of as ID, CLASS, and ELEMENT columns in 
+    the hundreds, tens, and ones place:
+    - Identifiers: Score one in this column for each ID selector contained inside 
+    the overall selector.
+    - Classes: Score one in this column for each class selector, attribute 
+    selector, or pseudo-class contained inside the overall selector.
+    - Elements: Score one in this column for each element selector or 
+    pseudo-element contained inside the overall selector.">
+    
+    <title>Understanding the cascade</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <h2>Heading with no class</h2>
+
+      <h2 class="small">Heading with class of small</h2>
+
+      <h2 class="bright">Heading with class of bright</h2>
+
+      <p class="better">
+        This is a paragraph.
+      </p>
+      
+      <p class="better" id="winning">
+        One selector to rule them all!
+      </p>
+    </body>
+</html>

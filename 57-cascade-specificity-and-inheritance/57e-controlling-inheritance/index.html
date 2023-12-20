@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Controlling inheritance: CSS provides five 
+    special universal property values for controlling inheritance. Every CSS 
+    property accepts these values. 1. inherit - Sets the property value applied 
+    to a selected element to be the same as that of its parent element. 
+    Effectively, this &quot;turns on inheritance&quot; 1. initial - Sets the 
+    property value applied to a selected element to the initial value of that 
+    property. 1. revert - Resets the property value applied to a selected element 
+    to the browser's default styling rather than the defaults applied to that 
+    property. This value acts like unset in many cases. 1. revert-layer - Resets the 
+    property value applied to a selected element to the value established in a 
+    previous cascade layer. 1. unset - Resets the property to its natural value, 
+    which means that if the property is naturally inherited it acts like inherit, 
+    otherwise it acts like initial.">
+    
+    <title>Controlling inheritance</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <ul>
+        <li>Default <a href="#">link</a> color</li> 
+        <li class="my-class-1">Inherit the <a href="#">link</a> color</li> 
+        <li class="my-class-2">Reset the <a href="#">link</a> color</li> 
+        <li class="my-class-3">Unset the <a href="#">link</a> color</li> 
+      </ul>
+    </body>
+</html>

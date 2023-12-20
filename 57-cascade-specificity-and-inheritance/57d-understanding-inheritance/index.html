@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Understanding inheritance: The color 
+    property is an inherited property. So, the color property value is applied 
+    to the direct children and also to the indirect children.  — the immediate 
+    child &lt;li&gt;s and those inside the first nested list. We have then added 
+    the class special to the second nested list and applied a different color to 
+    it. This then inherits down through its children. Properties like width 
+    (as mentioned earlier), margin, padding, and border are not inherited 
+    properties. If a border were to be inherited by the children in this list 
+    example, every single list and list item would gain a border — probably not 
+    an effect we would ever want!">
+    
+    <title>Understanding inheritance</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <ul class="main">
+        <li>Item One</li>
+        <li>Item Two
+          <ul>
+            <li>2.1</li>
+            <li>2.2</li>
+          </ul>
+        </li>
+        <li>Item Three
+          <ul class="special">
+            <li>3.1
+              <ul>
+                <li>3.1.1</li>
+                <li>3.1.2</li>
+              </ul>
+            </li>
+            <li>3.2</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+</html>

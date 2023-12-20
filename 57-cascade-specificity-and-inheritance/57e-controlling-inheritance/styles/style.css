@@ -1,0 +1,25 @@
+body {
+    color: green;
+}
+
+/* sets the color of the <a> element in the second list item to inherit. */
+
+.my-class-1 a {
+    color: inherit;
+}
+
+/* sets the color of the <a> element in the third list item to the initial 
+value of the property (in this case black) and not the browser default for links, 
+which is blue. */
+
+.my-class-2 a {
+    color: initial;
+}
+
+/* sets the color of the <a> element in the forth list item to the unset
+value of the property which means that the link text uses the color of the 
+parent element, green. */
+
+.my-class-3 a {
+    color: unset;
+}

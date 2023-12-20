@@ -1,0 +1,24 @@
+/* Task 2 */
+
+@layer yellow, green, purple;
+
+/* end of task 2 */
+
+@layer yellow {
+  #outer div ul .nav a {
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+@layer purple {
+  div div li a {
+    color: rebeccapurple;
+  }
+}
+@layer green {
+  a {
+    color: lightgreen;
+  }
+}
+
