@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Different display types example 1: This 
+    project has has three different HTML elements, all of which have an outer 
+    display type of block.">
+    
+    <title>Different display types</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <!-- 
+        A paragraph with a border added in CSS. The browser renders this as 
+        a block box. The paragraph starts on a new line and extends the entire 
+        available width. 
+      -->
+      <p>
+        I am a paragraph. A short one.
+      </p>
+
+      <!-- 
+        A list, which is laid out using display: flex. This establishes flex 
+        layout for the children of the container, which are flex items. The 
+        list itself is a block box and — like the paragraph — expands to the 
+        full container width and breaks onto a new line. 
+      -->
+      
+      <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+      </ul>
+
+      <!-- 
+        A block-level paragraph, inside which are two <span> elements. These 
+        elements would normally be inline, however, one of the elements has a 
+        class of "block" which gets set to display: block. 
+      -->
+      <p>
+        I am another paragraph. Some of the <span class="block">words</span> 
+        have been wrapped in a <span>span element</span>.
+      </p>
+    </body>
+</html>

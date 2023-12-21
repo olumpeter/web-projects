@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+p,
+ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+}
+
+li,
+.block{
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.block {
+    display: block;
+}

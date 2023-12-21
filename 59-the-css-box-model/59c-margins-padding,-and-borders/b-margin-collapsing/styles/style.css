@@ -1,0 +1,30 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 5px solid blue;
+    margin: 40px;
+}
+
+.one,
+.two {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.one {
+    margin-bottom: 50px;
+}
+  
+.two {
+    margin-top: 30px;
+}

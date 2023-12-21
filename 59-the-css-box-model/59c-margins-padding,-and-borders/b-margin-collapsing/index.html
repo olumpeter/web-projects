@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Margins, padding, and borders - Margin 
+    collapsing: In this project, you have two paragraphs. The top paragraph has 
+    a margin-bottom of 50 pixels, the other has a margin-top of 30 pixels. The 
+    margins have collapsed together so the actual margin between the boxes is 
+    50 pixels and not the total of the two margins.
+
+    You can test this by setting the margin-top of paragraph two to 0. The 
+    visible margin between the two paragraphs will not change — it retains the 
+    50 pixels set in the margin-bottom of paragraph one. If you set it to -10px, 
+    you'll see that the overall margin becomes 40px — it subtracts from the 50px.">
+    
+    <title>Margins, padding, and borders - Margin collapsing</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="container">
+        <p class="one">
+          I am paragraph one.
+        </p>
+        <p class="two">
+          I am paragraph two.
+        </p>
+      </div>
+    </body>
+</html>

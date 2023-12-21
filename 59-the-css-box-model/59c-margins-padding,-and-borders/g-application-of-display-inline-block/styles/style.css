@@ -1,0 +1,30 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+}
+
+.links-list a {
+    background-color: rgb(179 57 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+.links-list a:hover {
+    background-color: rgb(66 28 40);
+    color: #fff;
+  }

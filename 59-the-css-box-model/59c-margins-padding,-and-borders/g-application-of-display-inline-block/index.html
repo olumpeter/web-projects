@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Application of display: inline-block: 
+    Where display: inline-block can be useful is when you want to give a link 
+    a larger hit area by adding padding. &lt;a&gt; is an inline element like 
+    &gt;span&gt;; you can use display: inline-block to allow padding to be 
+    set on it, making it easier for a user to click the link.
+
+    You see this fairly frequently in navigation bars. The navigation below 
+    is displayed in a row using flexbox and we have added padding to the 
+    &lt;a&gt; element as we want to be able to change the background-color 
+    when the &lt;a&gt; is hovered. The padding appears to overlap the border 
+    on the &lt;ul&gt; element. This is because the &lt;a&gt; is an inline 
+    element.
+    
+    Add display: inline-block to the rule with the .links-list a selector, and 
+    you will see how it fixes this issue by causing the padding to be respected 
+    by other elements.">
+    
+    <title>Application of display: inline-block</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <nav>
+        <ul class="links-list">
+          <li><a href="">Link one</a></li>
+          <li><a href="">Link two</a></li>
+          <li><a href="">Link three</a></li>
+        </ul>
+      </nav>
+    </body>
+</html>
