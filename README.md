@@ -188,4 +188,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Cascade, Specificity, and Inheritance: Task 2: The Cascade</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/58-cascade-layers/58a-origin-and-specificity">
         Cascade layers: Origin and specificity</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/58-cascade-layers/58b-creating-cascade-layers">
+        Cascade layers: Creating cascade layers</li>
 </ol>
