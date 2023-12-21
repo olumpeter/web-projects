@@ -192,4 +192,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Cascade layers: Creating cascade layers</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/58-cascade-layers/58c-layer-creation-and-media-queries">
         Cascade layers: Layer creation and media queries</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59a-examples-of-different-display-types/example-1">
+        The CSS Box-model: Different display types example 1</li>
 </ol>
