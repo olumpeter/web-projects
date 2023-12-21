@@ -205,7 +205,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding-and-borders/c-border">
         The CSS Box-model: Margins, padding, and borders - Borders</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding-and-borders/d-padding">
-        The CSS Box-model: Margins, padding, and borders - Margin collapsing</li>
+        The CSS Box-model: Margins, padding, and borders - Padding</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding-and-borders/e-the-box-model-and-inline-boxes
-        The CSS Box-model: Margins, padding, and borders - Margin collapsing</li>
+        The CSS Box-model: Margins, padding, and borders - The box model and inline boxes</li>
 </ol>
