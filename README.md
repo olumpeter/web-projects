@@ -198,4 +198,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         The CSS Box-model: Different display types example 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59b-playing-with-box-models">
         The CSS Box-model: Playing with box models</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding,-and-borders/a-margin">
+        The CSS Box-model: Margins, padding, and borders - Margin</li>
 </ol>
