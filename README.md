@@ -190,4 +190,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Cascade layers: Origin and specificity</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/58-cascade-layers/58b-creating-cascade-layers">
         Cascade layers: Creating cascade layers</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/58-cascade-layers/58c-layer-creation-and-media-queries">
+        Cascade layers: Layer creation and media queries</li>
 </ol>
