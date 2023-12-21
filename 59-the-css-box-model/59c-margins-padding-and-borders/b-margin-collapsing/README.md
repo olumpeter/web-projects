@@ -9,10 +9,10 @@ You can test this by setting the <code>margin-top</code> of paragraph two to <co
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding-and-borders/a-margin/
+    https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding-and-borders/b-margin-collapsing/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding-and-borders/a-margin/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding-and-borders/b-margin-collapsing/">Visit website</a>
   </dd>
 </dl>
