@@ -210,4 +210,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         The CSS Box-model: Margins, padding, and borders - The box model and inline boxes</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding-and-borders/f-using-display-inline-block">
         The CSS Box-model: Using display - <code>inline-block: display</code></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding-and-borders/g-application-of-display-inline-block">
+        The CSS Box-model: Application of display: inline-block</code></li>
 </ol>
