@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Layer creation and media queries: This 
+    project shows how changing the size of your device or browser may change 
+    the layer order. In this example, we create the site layer only in wider 
+    browsers. We then assign styles to the page and site layers, in that order. 
+    In wide screens, the site layer is declared in the first line, meaning site 
+    has less precedence than page. Otherwise, site has precedence over page 
+    because it is declared later on narrow screens. ">
+    
+    <title>Layer creation and media queries</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <h1>Is this heading underlined?</h1>
+    </body>
+</html>

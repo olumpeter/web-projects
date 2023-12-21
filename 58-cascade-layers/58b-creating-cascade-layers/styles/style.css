@@ -1,0 +1,16 @@
+@layer page {
+    h1 {
+        text-decoration: overline;
+        color: red;
+    }
+}
+
+@layer site {
+    h1 {
+        text-decoration: underline;
+        color: green;
+    }
+}
+
+/* Try moving this line to make it the first line. What happens? */
+@layer site, page;

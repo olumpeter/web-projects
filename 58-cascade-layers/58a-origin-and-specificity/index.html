@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Origin and specificity: In this project, 
+    there are two links. The first has no author styles applied, so only 
+    user-agent styles are applied (and your personal user styles, if any). The 
+    second has text-decoration and color set by author styles  even though the 
+    selector in the author stylesheet has a specificity of 0-0-0. The reason why 
+    author styles &quot;win&quot; is because when there are conflicting styles 
+    from different origins, the rules from the origin with precedence are 
+    applied, irrespective of the specificity in the origin that doesn't have 
+    precedence.">
+    
+    <title>Origin and specificity</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <p>
+        <a href="https://example.org">User agent styles</a>
+      </p>
+      <p>
+        <a href="https://example.org" class="author">Author styles</a>
+      </p>
+    </body>
+</html>
