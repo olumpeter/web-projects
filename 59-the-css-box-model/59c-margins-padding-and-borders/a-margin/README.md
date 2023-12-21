@@ -7,10 +7,10 @@ In project, try changing the <code>margin</code> values to see how the box is pu
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding,-and-borders/a-margin/
+    https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding-and-borders/a-margin/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding,-and-borders/a-margin/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/59-the-css-box-model/59c-margins-padding-and-borders/a-margin/">Visit website</a>
   </dd>
 </dl>
