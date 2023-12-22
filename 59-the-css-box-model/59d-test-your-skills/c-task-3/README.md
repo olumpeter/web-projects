@@ -7,10 +7,10 @@ In this task, the **inline element** has a <code>margin</code>, <code>padding</c
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/59-the-css-box-model/59d-test-your-skills/c-task-2/
+    https://olumpeter.github.io/web-projects/59-the-css-box-model/59d-test-your-skills/c-task-3/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/59-the-css-box-model/59d-test-your-skills/c-task-2/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/59-the-css-box-model/59d-test-your-skills/c-task-3/">Visit website</a>
   </dd>
 </dl>
