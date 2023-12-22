@@ -1,0 +1,23 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.box span {
+  background-color: pink;
+  border: 5px solid black;
+  padding: 1em;
+}
+
+/* By using display: inline-block the block direction margin, border and 
+padding will cause the other lines to be pushed away from the element. */
+
+span {
+  display: inline-block;
+}
