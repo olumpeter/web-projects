@@ -212,4 +212,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         The CSS Box-model: Using display - <code>inline-block: display</code></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59c-margins-padding-and-borders/g-application-of-display-inline-block">
         The CSS Box-model: Application of <code>display: inline-block</code></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59d-test-your-skills/a-task-1">
+        The box model skill test: Task 1</li>
 </ol>
