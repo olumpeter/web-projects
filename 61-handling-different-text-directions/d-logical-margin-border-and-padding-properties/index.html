@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Handling different text directions: 
+    Logical margin, border, and padding properties - The margin-top property is 
+    mapped to margin-block-start — this will always refer to the margin at the 
+    start of the block dimension.
+
+    The padding-left property maps to padding-inline-start, the padding that is 
+    applied to the start of the inline direction. This will be where sentences 
+    start in that writing mode. The border-bottom property maps to 
+    border-block-end, which is the border at the end of the block dimension.
+    
+    You can see a comparison between physical and logical properties below.
+    
+    If you change the writing mode of the boxes by switching the writing-mode 
+    property on .box to vertical-rl, you will see how the physical properties 
+    stay tied to their physical direction, whereas the logical properties switch 
+    with the writing mode.
+    
+    You can also see that the h2 has a black border-bottom. Can you work out how 
+    to make that bottom border always go below the text in both writing modes?">
+    
+    <title>Logical margin, border, and padding properties</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="wrapper">
+        <div class="box physical">
+          <h2>Physical Properties</h2>
+          <p>
+            A paragraph. Demonstrating Logical Properties in CSS.
+          </p>
+        </div>
+        <div class="box logical">
+          <h2>Logical Properties</h2>
+          <p>
+            A paragraph. Demonstrating Logical Properties in CSS.
+          </p>
+        </div>
+      </div>
+    </body>
+</html>

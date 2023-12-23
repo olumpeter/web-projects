@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Handling different text directions: 
+    Logical values: There are also some properties that take physical values 
+    of top, right, bottom, and left. These values also have mappings, to 
+    logical values — block-start, inline-end, block-end, and inline-start.
+    
+    For example, you can float an image left to cause text to wrap round the 
+    image. You could replace left with inline-start as shown in this project.
+    
+    Change the writing mode on this example to vertical-rl to see what happens 
+    to the image. Change inline-start to inline-end to change the float.">
+    
+    <title>Logical values</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="wrapper">
+        <div class="box logical">
+          <img src="images/big-star.png" alt="star">
+          <p>
+            This box uses logical properties. The star image has been 
+            floated inline-start, it also has a margin on the inline-end 
+            and block-end.
+          </p>
+        </div>
+      </div>
+    </body>
+</html>

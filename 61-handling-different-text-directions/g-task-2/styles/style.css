@@ -1,0 +1,34 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+/* turn the box vertical */
+.vertical {
+  writing-mode: vertical-rl;
+}
+
+/* apply the inline-size and block-size properties to replace width and height. */
+.box {
+  inline-size: 200px;
+  block-size: 100px;
+}
