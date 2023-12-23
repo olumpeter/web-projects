@@ -256,4 +256,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Handling different text directions: Task 1</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/g-task-2">
         Handling different text directions: Task 2</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/h-task-3">
+        Handling different text directions: Task 3</li>
 </ol>
