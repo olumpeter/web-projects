@@ -218,6 +218,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         The box model skill test: Task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59d-test-your-skills/c-task-3">
         The box model skill test: Task 3</li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/59-the-css-box-model/59d-test-your-skills/c-task-3">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/a-background-colors">
         Backgrounds and borders - Background colors</li>
 </ol>
