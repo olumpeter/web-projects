@@ -235,7 +235,9 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/h-background-attachment">
         Backgrounds and borders - Background attachment</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/j-using-the-background-shorthand-property">
-        Backgrounds and borders - Borders</li>
+        Backgrounds and borders - Using the background shorthand property</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/k-borders">
         Backgrounds and borders - Borders</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/m-task-1">
+        Backgrounds and borders - Task 1</li>
 </ol>
