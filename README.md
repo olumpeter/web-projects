@@ -240,4 +240,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Backgrounds and borders - Borders</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/m-task-1">
         Backgrounds and borders - Task 1</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/n-task-2">
+        Backgrounds and borders - Task 2</li>
 </ol>
