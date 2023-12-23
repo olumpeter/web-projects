@@ -263,7 +263,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/b-the-overflow-property">
         Overflowing content: The overflow property</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/c-the-overflow-property-value-of-auto">
-        Overflowing content: Using overflow: auto</li>
+        Overflowing content: Using <code>overflow: auto</code></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/d-task-1">
         Overflowing content: Task 1</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/e-task-2">
