@@ -9,10 +9,10 @@ This example shows how you CSS tries to avoid &quot;data loss.&quot;
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/61-handling-different-text-directions/a-what-is-overflow/
+    https://olumpeter.github.io/web-projects/62-overflowing-content/a-what-is-overflow/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/61-handling-different-text-directions/a-what-is-overflow/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/62-overflowing-content/a-what-is-overflow/">Visit website</a>
   </dd>
 </dl>
