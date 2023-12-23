@@ -234,4 +234,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Backgrounds and borders - Multiple background images</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/h-background-attachment">
         Backgrounds and borders - Background attachment</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/j-using-the-background-shorthand-property">
+        Backgrounds and borders - Borders</li>
 </ol>
