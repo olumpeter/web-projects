@@ -2,7 +2,7 @@
 
 In this task, there is an image in the box that is bigger than the dimensions of the box so that it overflows visibly. Change it so that any image outside of the box is hidden.
     
-HINT: You should use overflow: hidden CSS declaration to crop all of the image that is outside of the box.
+HINT: You should use <code>overflow: hidden</code> CSS declaration to crop all of the image that is outside of the box.
 
 ## How you can access this live website
 
