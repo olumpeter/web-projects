@@ -1,10 +1,10 @@
 # Backgrounds and borders - Background colors
 
-The background-color property defines the background color on any element in CSS. The property accepts any valid &lt;color&gt;. A background-color extends underneath the content and padding box of the element. 
+The <code>background-color</code> property defines the **background color** on any element in CSS. The property accepts any valid <code>&lt;color&gt;</code>. A <code>background-color</code> extends underneath the **content** and **padding box** of the element. 
 
-In this project, we we have used various color values to add a background color to the box, a heading, and a &lt;span&gt; element.
+In this project, we we have used various <code>color</code> values to add a **background color** to the box, a **heading**, and a <code>&lt;span&gt;</code> element.
     
-Play around with these, using any available &gt;color&gt; value.
+Play around with these, using any available <code>&gt;color&gt;</code> value.
 
 ## How you can access this live website
 
