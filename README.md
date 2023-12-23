@@ -246,4 +246,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Handling different text directions: What are writing modes</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/b-writing-modes-and-block-and-inline-layout">
         Handling different text directions: Logical properties and values</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/c-logical-properties-and-values">
+        Handling different text directions: Writing modes and block and inline layout</li>
 </ol>
