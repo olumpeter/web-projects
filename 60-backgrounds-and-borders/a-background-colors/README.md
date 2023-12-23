@@ -4,7 +4,7 @@ The <code>background-color</code> property defines the **background color** on a
 
 In this project, we we have used various <code>color</code> values to add a **background color** to the box, a **heading**, and a <code>&lt;span&gt;</code> element.
     
-Play around with these, using any available <code>&gt;color&gt;</code> value.
+Play around with these, using any available <code>&lt;color&gt;</code> value.
 
 ## How you can access this live website
 
