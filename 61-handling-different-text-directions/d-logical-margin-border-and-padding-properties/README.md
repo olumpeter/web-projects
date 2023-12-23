@@ -1,6 +1,6 @@
-# Handling different text directions: Logical margin, border, and padding properties
+# Handling different text directions: Logical <code>margin</code>, <code>border</code>, and <code>padding</code> properties
 
-The <code>margin-top property is mapped to <code>margin-block-start</code> — this will always refer to the margin at the start of the block dimension.
+The <code>margin-top</code> property is mapped to <code>margin-block-start</code> — this will always refer to the margin at the start of the block dimension.
 
 The <code>padding-left</code> property maps to <code>padding-inline-start</code>, the <code>padding</code> that is applied to the start of the inline direction. This will be where sentences start in that writing mode. The <code>border-bottom</code> property maps to <code>border-block-end</code>, which is the border at the end of the block dimension.
 
