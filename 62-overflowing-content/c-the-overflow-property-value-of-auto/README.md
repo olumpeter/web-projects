@@ -1,4 +1,4 @@
-# Overflowing content: Using overflow: auto
+# Overflowing content: Using <code>overflow: auto</code>
 
 If you only want scrollbars to appear when there is more content than can fit in the box, use <code>overflow: auto</code>. This allows the browser to determine if it should display scrollbars.
     
