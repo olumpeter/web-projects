@@ -1,4 +1,4 @@
-# Backgrounds and borders - Borders
+# Backgrounds and borders - Using the background shorthand property
 
 There are a variety of styles that you can use for borders. In this project, we have used two different border styles for the box and two different border styles for the heading. 
 
