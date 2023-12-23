@@ -250,4 +250,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Handling different text directions: Writing modes and block and inline layout</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/d-logical-margin-border-and-padding-properties">
         Handling different text directions: Logical margin, border, and padding properties</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/e-logical-values">
+        Handling different text directions: Logical values</li>
 </ol>
