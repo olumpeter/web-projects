@@ -260,4 +260,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Handling different text directions: Task 3</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/a-what-is-overflow">
         Overflowing content: CSS tries to avoid &quot;data loss&quot;</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/b-the-overflow-property">
+        Overflowing content: The overflow property</li>
 </ol>
