@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.a {
+    background-image: linear-gradient(
+        105deg, 
+        rgb(0 249 255 / 100%) 39%, 
+        rgb(51 56 57 / 100%) 96%);
+}
+
+.b {
+    background-image: radial-gradient(
+        circle, 
+        rgb(0 249 255 / 100%) 39%, 
+        rgb(51 56 57 / 100%) 96%);
+    background-size: 100px 50px;
+  }

@@ -1,0 +1,28 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    padding: 0.5em;
+    background-color: #567895;
+    border: 5px solid #0b385f;
+    border-bottom-style: dashed;
+    color: #fff;
+}
+
+h2 {
+    border-top: 2px dotted rebeccapurple;
+    border-bottom: 1em double rgb(24 163 78);
+}

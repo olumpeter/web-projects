@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+/* 
+Try the following.
+
+- Change the length units used to modify the size of the background. Remove the 
+length units and see what happens when you use background-size: cover or 
+background-size: contain.
+- If your image is smaller than the box, you can change the value of 
+background-repeat to repeat the image. 
+*/
+
+.box {
+    background-image: url(../../images/balloons.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px 10em;
+}
