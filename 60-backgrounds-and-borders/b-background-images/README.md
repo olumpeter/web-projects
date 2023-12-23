@@ -13,11 +13,11 @@ Try adding a <code>background-color</code> property to the example above to see 
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/60-backgrounds-and-borders/a-background-colors/
+    https://olumpeter.github.io/web-projects/60-backgrounds-and-borders/b-background-images/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/60-backgrounds-and-borders/a-background-colors/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/60-backgrounds-and-borders/b-background-images/">Visit website</a>
   </dd>
 </dl>
 
