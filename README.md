@@ -226,4 +226,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Backgrounds and borders - Sizing the background image</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/d-sizing-the-background-image">
         Backgrounds and borders - Controlling <code>background-repeat</code></li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/e-positioning-the-background-image">
+        Backgrounds and borders - Positioning the background image</li>
 </ol>
