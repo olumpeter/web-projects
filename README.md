@@ -244,4 +244,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Backgrounds and borders - Task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/a-what-are-writing-modes">
         Handling different text directions: What are writing modes</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/61-handling-different-text-directions/b-writing-modes-and-block-and-inline-layout">
+        Handling different text directions: Logical properties and values</li>
 </ol>
