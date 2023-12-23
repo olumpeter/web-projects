@@ -230,4 +230,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Backgrounds and borders - Positioning the background image</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/f-gradient-backgrounds">
         Backgrounds and borders - Gradient backgrounds</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/60-backgrounds-and-borders/g-multiple-background-images">
+        Backgrounds and borders - Multiple background images</li>
 </ol>
