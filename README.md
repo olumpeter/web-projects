@@ -298,4 +298,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS values and units: Task 1</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/o-task-2">
         CSS values and units: Task 2</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/p-task-3">
+        CSS values and units: Task 3</li>
 </ol>
