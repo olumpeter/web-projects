@@ -284,6 +284,8 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS values and units: Hexadecimal RGB values</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/h-RGB-values">
         CSS values and units: RGB values</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/i-using-hues-to-specify-a-color">
+        CSS values and units: Using hues to specify</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/j-images">
         CSS values and units: Images</li>
 </ol>
