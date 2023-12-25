@@ -290,4 +290,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS values and units: Images</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/k-position">
         CSS values and units: Position</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/l-strings-and-identifiers">
+        CSS values and units: Strings and identifiers</li>
 </ol>
