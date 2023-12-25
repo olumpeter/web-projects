@@ -6,11 +6,11 @@ The **second list item** should use **RGB color**.
     
 The **third list item** should use HSL color.
     
-The **fourth list item** should use **RGB color** but with the **alpha channel** set to <code>0.6.
+The **fourth list item** should use **RGB color** but with the **alpha channel** set to <code>0.6</code>.
     
 **HINT:**
 You need to take a color which is a **hex code** and add the same color to other elements using **RGB** and **HSL** colors, plus change the **opacity** of the 
-final item. Use this link to a <a href="https://convertingcolors.com/hex-color-86DEFA.html">color conversion tool</a> to know what the different values look like. You needs to take a <code>color which is a **hex code** and add the same color to other elements using **RGB** and **HSL** colors, plus change the **opacity** of the final item. 
+final item. Use this link to a <a href="https://convertingcolors.com/hex-color-86DEFA.html">color conversion tool</a> to know what the different values look like. You needs to take a <code>color</code> which is a **hex code** and add the same color to other elements using **RGB** and **HSL** colors, plus change the **opacity** of the final item. 
 
 ## How you can access this live website
 
