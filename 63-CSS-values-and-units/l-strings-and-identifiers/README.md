@@ -1,6 +1,6 @@
 # CSS values and units: Strings and identifiers
 
-We've seen places where **keywords** are used as a value (for example <code>&lt;color&gt; keywords like <code>red, <code>black, <code>rebeccapurple, and <code>goldenrod). These **keywords** are more accurately described as **identifiers**, a special value that CSS understands. As such they are not quoted — they are not treated as strings.
+We've seen places where **keywords** are used as a value (for example <code>&lt;color&gt;</code> keywords like <code>red</code>, <code>black</code>, <code>rebeccapurple</code>, and <code>goldenrod</code>). These **keywords** are more accurately described as **identifiers**, a special value that CSS understands. As such they are not quoted — they are not treated as strings.
 
 There are places where you use **strings** in CSS. For example, when specifying **generated content**. In this case, the value is quoted to demonstrate that it is a string. 
     
