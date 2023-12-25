@@ -268,4 +268,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Overflowing content: Task 1</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/62-overflowing-content/e-task-2">
         Overflowing content: Task 2</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/a-exploring-an-example">
+        CSS values and units: Exploring an example</li>
 </ol>
