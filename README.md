@@ -276,4 +276,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS values and units: Line height units</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/d-percentages">
         CSS values and units: Percentages</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/e-numbers">
+        CSS values and units: Numbers</li>
 </ol>
