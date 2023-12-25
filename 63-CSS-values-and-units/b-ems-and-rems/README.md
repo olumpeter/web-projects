@@ -4,7 +4,7 @@
     
 To start with, we set <code>16px</code> as the **font size** on the <code>&lt;html&gt;</code> element. The <code>em</code> unit means _&quot;my parent element's font-size&quot;_ in the case of typography.
     
-The <code>rem</code> unit means _&quot;The root element's font-size&quot;_ (<code>rem</code> stands for _&quot;root em&quot;_
+The <code>rem</code> unit means _&quot;The root element's font-size&quot;_ (<code>rem</code> stands for _&quot;root em&quot;)_
 
 ## How you can access this live website
 
