@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="CSS values and units: 
+    Percentages - In a lot of cases, a percentage is treated in the same way 
+    as a length. The thing with percentages is that they are always set relative 
+    to some other value. For example, if you set an element's font-size as a 
+    percentage, it will be a percentage of the font-size of the element's parent. 
+    If you use a percentage for a width value, it will be a percentage of the 
+    width of the parent.
+    
+    In this project, the two percentage-sized boxes and the two pixel-sized boxes 
+    have the same class names. The sets are 40% and 200px wide respectively. The 
+    difference is that the second set of two boxes is inside a wrapper that is 
+    400px wide. The second 200px wide box is the same width as the first one, but 
+    the second 40% box is now 40% of 400px — a lot narrower than the first one!
+    
+    The next example has font sizes set in percentages. Each &lt;li&gt; has a 
+    font-size of 80%; therefore, the nested list items become progressively 
+    smaller as they inherit their sizing from their parent.">
+
+    <title>Percentages</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="box px">
+        I am 200px wide
+      </div>
+      <div class="box percent">
+        I am 40% wide
+      </div>
+      <div class="wrapper">
+        <div class="box px">
+          I am 200px wide
+        </div>
+        <div class="box percent">
+          I am 40% wide
+        </div>
+      </div>
+
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ul>
+            <li>Three A</li>
+            <li>Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+</html>
+

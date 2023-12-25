@@ -1,0 +1,26 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width:400px;
+  padding: 1em;
+  border-radius: .5em;
+  border: 5px solid rebeccapurple;
+  background-color: lightblue;
+}
+
+.box::after {
+  content: "This is a string. I know because it is quoted in the CSS.";
+}

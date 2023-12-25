@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="CSS values and units: 
+    ems and rems - em and rem are the two relative lengths you are likely to 
+    encounter most frequently when sizing anything from boxes to text. This 
+    project provides a demonstration. We have two lists in total and both examples 
+    have the same HTML. The only difference is that the first has a class of ems 
+    and the second a class of rems.
+    
+    To start with, we set 16px as the font size on the &lt;html&gt; element.
+    
+    The em unit means &quot;my parent element's font-size&quot; in the case of 
+    typography.
+    
+    The rem unit means &quot;The root element's font-size&quot; (rem stands for 
+    &quot;root em&quot;)">
+
+    <title>ems and rems</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <ul class="ems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ul>
+            <li>Three A</li>
+            <li>Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ul>
+            <li>Three A</li>
+            <li>Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+</html>
+

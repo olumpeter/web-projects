@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="CSS values and units: 
+    Using hues to specify a color - If you want to go beyond keywords, hexadecimal, 
+    and rgb() for colors, you might want to try using &lt;hue&gt;. Hue is the 
+    property that allows us to tell the difference or similarity between colors 
+    like red, orange, yellow, green, blue, etc. The key concept is that you can 
+    specify a hue in an &lt;angle&gt; because most of the color models describe 
+    hues using a color wheel. 
+    
+    A great starting point for using hues in CSS is the hsl() function. Let's take 
+    a quick look at the parts you can specify:
+
+    - Hue: The base shade of the color. This takes a &lt;hue&gt; value between 0 
+    and 360, representing the angles around a color wheel.
+    - Saturation: How saturated is the color? This takes a value from 0–100%, 
+    where 0 is no color (it will appear as a shade of grey), and 100% is full 
+    color saturation.
+    - Lightness: How light or bright is the color? This takes a value from 0–100%, 
+    where 0 is no light (it will appear completely black) and 100% is full light 
+    (it will appear completely white).
+
+    Similar to rgb(), the hsl() color value also has an optional fourth value, 
+    separated from the color with a slash (/), representing the alpha transparency.">
+
+    <title>Using hues to specify a color</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <h2>Example 1</h2>
+
+      <div class="wrapper-1">
+        <div class="box one">
+          hsl(188 97% 28%)
+        </div>
+        <div class="box two">
+          hsl(321 47% 57%)
+        </div>
+        <div class="box three">
+          hsl(174 77% 31%)
+        </div>
+      </div>
+
+      <h2>Example 2</h2>
+
+      <div class="wrapper-2">
+        <div class="box one">
+          hsl(188 97% 28% / .3)
+        </div>
+        <div class="box two">
+          hsl(321 47% 57% / .7)
+        </div>
+        <div class="box three">
+          hsl(174 77% 31% / .9)
+        </div>
+      </div>
+    </body>
+</html>
+

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+  gap: 24px;
+  background-color: floralwhite;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  background-image: repeating-linear-gradient(
+    to top,
+    lightskyblue 0 2px,
+    transparent 2px 1lh
+  );
+}
+
