@@ -270,4 +270,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Overflowing content: Task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/a-exploring-an-example">
         CSS values and units: Exploring an example</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/b-ems-and-rems">
+        CSS values and units: <code>ems</code> and <code>rems</code></li>
 </ol>
