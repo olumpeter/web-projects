@@ -312,4 +312,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Sizing items in CSS: <code>min-</code> and <code>max-</code> sizes</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/f-viewport-units">
         Sizing items in CSS: Viewport units</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/g-task-1">
+        Sizing items in CSS: Task 1</li>
 </ol>
