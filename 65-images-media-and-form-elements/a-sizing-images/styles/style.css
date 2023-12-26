@@ -1,0 +1,58 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper-1 {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper-1 > * {
+  margin: 20px;
+}
+
+.wrapper-2 .box {
+  border: 5px solid darkblue;
+  width: 200px;
+}
+
+.wrapper-2 {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper-2 > * {
+  margin: 20px;
+}
+
+.wrapper-2 .box {
+  border: 5px solid darkblue;
+  width: 200px;
+  height: 200px;
+}
+
+.wrapper-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}

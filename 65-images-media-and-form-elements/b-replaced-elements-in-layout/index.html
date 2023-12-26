@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Images, media, and form elements: 
+    Replaced elements in layout - When using various CSS layout techniques on 
+    replaced elements, you may well find that they behave slightly differently 
+    from other elements. For example, in a flex or grid layout elements are 
+    stretched by default to fill the entire area. Images will not stretch, and 
+    instead will be aligned to the start of the grid area or flex container.
+
+    In this project, you can see this happening in the example below where we 
+    have a two column, two row grid container, which has four items in it. All 
+    of the &lt;div&gt; elements have a background color and stretch to fill the 
+    row and column. The image, however, does not stretch.
+    
+    Just keep in mind that replaced elements, when they become part of a grid 
+    or flex layout, have different default behaviors, essentially to avoid them 
+    being stretched strangely by the layout.
+    
+    To force the image to stretch to fill the grid cell it is in, you'd have to 
+    do something like the following:
+    
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    This would, however, stretch the image, so it's probably not what you'd want 
+    to do.">
+
+    <title>Replaced elements in layout</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="wrapper">
+        <div>
+          <img src="images/star.png" alt="star">
+        </div>
+        <div class="empty-div">
+
+        </div>
+        <div class="empty-div">
+
+        </div>
+        <div class="empty-div">
+
+        </div>
+      </div>
+    </body>
+</html>
+
