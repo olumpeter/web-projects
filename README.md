@@ -304,4 +304,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Sizing items in CSS: The natural or intrinsic size of things</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/b-setting-a-specific-size">
         Sizing items in CSS: Setting a specific size</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/c-using-percentages">
+        Sizing items in CSS: Using percentages</li>
 </ol>
