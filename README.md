@@ -318,4 +318,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Sizing items in CSS: Task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/i-task-3">
         Sizing items in CSS: Task 3</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/65-images-media-and-form-elements/a-sizing-images">
+        Images, media, and form elements: Sizing images</li>
 </ol>
