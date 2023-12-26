@@ -8,12 +8,10 @@ Just keep in mind that replaced elements, when they become part of a grid or fle
     
 To force the image to stretch to fill the grid cell it is in, you'd have to do something like the following:
 
-<code>
-img {
+<code>img {
   width: 100%;
   height: 100%;
-}
-</code>
+}</code>
     
 This would, however, stretch the image, so it's probably not what you'd want to do.
 
