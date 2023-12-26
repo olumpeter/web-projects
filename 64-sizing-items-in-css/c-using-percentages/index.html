@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Sizing items in CSS: 
+    Using percentages - Percentages act like length units. When using a 
+    percentage you need to be aware what it is a percentage of. In the case 
+    of a box inside another container, if you give the child box a 
+    percentage width it will be a percentage of the width of the parent 
+    container.
+    
+    This is because percentages resolve against the size of the containing 
+    block. With no percentage applied, our &lt;div&gt; would take up 100% 
+    of the available space, as it is a block level element. If we give it 
+    a percentage width, this becomes a percentage of the space it would 
+    normally fill.">
+
+    <title>Using percentages</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="box">
+        I have a percentage width.
+      </div>
+    </body>
+</html>
+

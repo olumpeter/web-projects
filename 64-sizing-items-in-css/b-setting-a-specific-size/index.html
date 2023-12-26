@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Sizing items in CSS: 
+    Setting a specific size - We can, of course, give elements in our 
+    design a specific size. When a size is given to an element 
+    (the content of which then needs to fit into that size) we refer to 
+    it as an **extrinsic size**. Take our &lt;div&gt; from the previous 
+    example — we can give it specific width and height values, and it will 
+    now have that size no matter what content is placed into it. As we 
+    discovered in our previous project on overflow, a set height can cause 
+    content to overflow if there is more content than the element has space 
+    to fit inside it.
+    
+    Due to this problem of overflow, fixing the height of elements with 
+    lengths or percentages is something we need to do very carefully on 
+    the web.">
+
+    <title>Setting a specific size</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <div class="wrapper">
+        <div class="box">
+
+        </div>
+        <div class="box">
+          These boxes both have a height set, this box has content in it 
+          which will need more space than the assigned height, and so we get 
+          overflow. 
+        </div>
+      </div>
+    </body>
+</html>
+

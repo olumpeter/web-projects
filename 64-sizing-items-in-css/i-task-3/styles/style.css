@@ -1,0 +1,26 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  border: 5px solid #000;
+  width: 400px;
+  margin-bottom: 1em;
+}
+
+img {
+  /* use max-width set to 100% to cause the larger image to grow only as large 
+  as the box. If they use width: 100% then the small image will stretch. */
+  max-width: 100%;
+}

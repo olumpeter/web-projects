@@ -1,0 +1,35 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  border: 5px solid #000;
+  width: 400px;
+  margin-bottom: 1em;
+}
+
+.box1 {
+  /* Size box 1 so that the height will be at least 100 pixels tall. This 
+  will make box 1 expand to take the additional content but if you remove 
+  some content, the box will be at least as tall as the min-height. */
+
+  min-height: 100px;
+}
+
+.box2 {
+  /* Size box 2 so that it be fixed at 100 pixels tall. Giving box 2 a fixed 
+  height will cause content to overflow. */
+  
+  height: 100px;
+}

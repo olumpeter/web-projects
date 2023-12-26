@@ -1,0 +1,62 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* CSS for example 1  */
+
+.wrapper-1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper-1 > * {
+  margin: 20px;
+}
+
+.box-wrapper-1 {
+  border: 5px solid darkblue;
+  min-height: 150px;
+  width: 200px;
+}
+
+/* CSS for example 2 */
+
+.wrapper-2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper-2 > * {
+  margin: 20px;
+}
+
+.box-wrapper-2, .minibox-wrapper-2 {
+  border: 5px solid darkblue;
+}
+
+.box-wrapper-2 {
+  width: 200px;
+}
+
+.minibox-wrapper-2 {
+  width: 50px;
+}
+
+.width-wrapper-2 {
+  width: 100%;
+}
+
+.max-wrapper-2 {
+  max-width: 100%;
+}
