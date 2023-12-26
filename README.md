@@ -310,4 +310,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Sizing items in CSS: Percentage <code>margins</code> and <code>padding</code></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/e-min-and-max-sizes">
         Sizing items in CSS: <code>min-</code> and <code>max-</code> sizes</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/f-viewport-units">
+        Sizing items in CSS: Viewport units</li>
 </ol>
