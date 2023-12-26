@@ -300,4 +300,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS values and units: Task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/63-CSS-values-and-units/p-task-3">
         CSS values and units: Task 3</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/a-the-natural-or-intrinsic-size-of-things">
+        Sizing items in CSS: The natural or intrinsic size of things</li>
 </ol>
