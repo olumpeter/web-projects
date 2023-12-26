@@ -320,4 +320,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Sizing items in CSS: Task 3</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/65-images-media-and-form-elements/a-sizing-images">
         Images, media, and form elements: Sizing images</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/65-images-media-and-form-elements/b-replaced-elements-in-layout">
+        Images, media, and form elements: Replaced elements in layout</li>
 </ol>
