@@ -322,4 +322,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Images, media, and form elements: Sizing images</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/65-images-media-and-form-elements/b-replaced-elements-in-layout">
         Images, media, and form elements: Replaced elements in layout</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/65-images-media-and-form-elements/c-form-elements">
+        Images, media, and form elements: Form elements</li>
 </ol>
