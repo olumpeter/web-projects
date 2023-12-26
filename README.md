@@ -306,4 +306,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Sizing items in CSS: Setting a specific size</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/c-using-percentages">
         Sizing items in CSS: Using percentages</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/64-sizing-items-in-css/d-percentage-margins-and-padding">
+        Sizing items in CSS: Percentage <code>margins</code> and <code>padding</code></li>
 </ol>
