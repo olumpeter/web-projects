@@ -4,7 +4,9 @@
 
 The first thing we need to do is sort out the spacing/layout — default table styling is so cramped! To do this, add the following CSS to your <code>style.css</code> file:
 
-<code>/* spacing and layout*/
+```
+<pre>
+/* spacing and layout*/
 
 table {
   table-layout: fixed;
@@ -32,7 +34,9 @@ thead th:nth-child(4) {
 th,
 td {
   padding: 20px;
-}</code>
+}
+</pre>
+```
 
 The most important parts to note are as follows:
 
