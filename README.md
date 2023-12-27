@@ -336,4 +336,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Styling tables: Task</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/67-fundamental-CSS-comprehension/fundamental-css-comprehension">
         Fundamental CSS comprehension</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/68-creating-fancy-letterheaded-paper/create-fancy-letterheaded-paper">
+        Creating fancy letterheaded paper </li>
 </ol>
