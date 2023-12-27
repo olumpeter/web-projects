@@ -5,7 +5,6 @@
 The first thing we need to do is sort out the spacing/layout — default table styling is so cramped! To do this, add the following CSS to your <code>style.css</code> file:
 
 ```
-<pre>
 /* spacing and layout*/
 
 table {
@@ -35,7 +34,6 @@ th,
 td {
   padding: 20px;
 }
-</pre>
 ```
 
 The most important parts to note are as follows:
@@ -53,14 +51,17 @@ legible.
 
 Now we'll get our text sorted out a bit. First of all, we've found a font on Google Fonts that is suitable for a table about punk bands. You can go there and find a different one if you like; you'll just have to replace our provided <code>&lt;link&gt;</code> element and custom <code>font-family</code> declaration with the ones Google Fonts gives you. First, add the following <code>&lt;link&gt;</code> element into your HTML head, just above your existing <code>&lt;link&gt;</code> element:
 
-<code>&lt;link
+```
+&lt;link
   href=&quot;https://fonts.googleapis.com/css?family=Rock+Salt&quot;
   rel=&quot;stylesheet&quot;
-  type=&quot;text/css&quot; /&gt;</code>
+  type=&quot;text/css&quot; /&gt;
+```
 
 Now add the following CSS into your style.css file, below the previous addition:
 
-<code>thead th,
+```
+thead th,
 tfoot th {
   font-family: &quot;Rock Salt&quot;, cursive;
 }
@@ -79,7 +80,8 @@ tbody td {
 
 tfoot th {
   text-align: right;
-}</code>
+}
+```
 
 ## Graphics and colors
 
@@ -87,7 +89,8 @@ Now onto graphics and colors! Because the table is full of punk and attitude, we
 
 Start by adding the following CSS to your <code>style.css</code> file, again at the bottom:
 
-<code>thead,
+```
+thead,
 tfoot {
   background: url(leopardskin.jpg);
   color: white;
@@ -99,12 +102,14 @@ tfoot th,
 tfoot td {
   background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
   border: 3px solid purple;
-}</code>
+}
+```
 
 ## Zebra striping
 
 zebra stripes — alternating rows of color that make the different data rows in your table easier to parse and read. Add the following <cCSS to the bottom of your <code>style.css file:
 
+```
 /* zebra striping */
 
 tbody tr:nth-child(odd) {
@@ -121,13 +126,15 @@ tbody tr {
 
 table {
   background-color: #ff33cc;
-}</code>
+}
+```
 
 # Styling the caption
 
 There is one last thing to do with our table — style the caption. To do this, add the following to the bottom of your <code>style.css</code> file:
 
-<code>caption {
+```
+caption {
   font-family: &quot;Rock Salt&quot;, cursive;
   padding: 20px;
   font-style: italic;
@@ -135,7 +142,8 @@ There is one last thing to do with our table — style the caption. To do this, 
   color: #666;
   text-align: right;
   letter-spacing: 1px;
-}</code>
+}
+```
 
 ## Table styling quick tip
 
