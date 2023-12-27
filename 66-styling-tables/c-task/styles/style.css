@@ -1,0 +1,90 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+table {
+  font-size: 75%;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  /* Add a 1px top and bottom solid border with the hex color #999 */
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+/* Add a hex color #999 solid border of the same color above the footer. */
+tfoot {
+  border-top: 1px solid #999;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  /* Add padding of 0.3em to the table headings and data */
+  padding: .3em;
+  /* align them at the top of their cells */
+  vertical-align: top;
+}
+
+/* Align headings and data for columns containing numbers right. */
+tr :nth-child(2),
+tr :nth-child(3) {
+  text-align: right;
+}
+
+/* Align headings and data for columns containing text left. */
+tr :nth-child(1),
+tr :nth-child(4) {
+  text-align: left;
+}
+
+/* Stripe every odd row of the main table with the hex color #eee. */
+tbody tr:nth-child(odd){
+  background-color: #eee;
+}
+
+/* Remove the default spacing between the table elements borders to get the 
+expected result. */
+
+th,
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}

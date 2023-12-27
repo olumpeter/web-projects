@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Styling tables: 
+    Spacing and layout - The first thing we need to do is sort out the 
+    spacing/layout — default table styling is so cramped! To do this, add the 
+    following CSS to your style.css file:
+    
+    /* spacing and layout*/
+
+    table {
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+      border: 3px solid purple;
+    }
+
+    thead th:nth-child(1) {
+      width: 30%;
+    }
+
+    thead th:nth-child(2) {
+      width: 20%;
+    }
+
+    thead th:nth-child(3) {
+      width: 15%;
+    }
+
+    thead th:nth-child(4) {
+      width: 35%;
+    }
+
+    th,
+    td {
+      padding: 20px;
+    }
+
+    The most important parts to note are as follows:
+
+    - A table-layout value of fixed is generally a good idea to set on your table, 
+    as it makes the table behave a bit more predictably by default. Normally, 
+    table columns tend to be sized according to how much content they contain, 
+    which produces some strange results. With table-layout: fixed, you can size 
+    your columns according to the width of their headings, and then deal with 
+    their content as appropriate. This is why we've selected the four different 
+    headings with the thead th:nth-child(n) (:nth-child) selector (&quot;Select 
+    the n-th child that is a &lt;th&gt; element in a sequence, inside a &lt;thead&gt; 
+    element&quot;) and given them set percentage widths. The entire column width 
+    follows the width of its heading, making for a nice way to size your table 
+    columns. We've coupled this with a width of 100%, meaning that the table will 
+    fill any container it is put in, and be nicely responsive (although it would 
+    still need some more work to get it looking good on narrow screen widths).
+    - A border-collapse value of collapse is standard best practice for any table 
+    styling effort. By default, when you set borders on table elements, they will 
+    all have spacing between them.
+    - We've put a border around the whole table, which is needed because we'll be 
+    putting some borders round the table header and footer later on — it looks 
+    really odd and disjointed when you don't have a border round the whole outside 
+    of the table and end up with gaps.
+    - We've set some padding on the &lt;th&gt; and &lt;td&gt; elements — this 
+    gives the data items some space to breathe, making the table look a lot more 
+    legible.
+    
+    Some simple typography - Now we'll get our text sorted out a bit. First of all, 
+    we've found a font on Google Fonts that is suitable for a table about punk 
+    bands. You can go there and find a different one if you like; you'll just have 
+    to replace our provided &lt;link&gt; element and custom font-family declaration 
+    with the ones Google Fonts gives you. First, add the following &lt;link&gt; 
+    element into your HTML head, just above your existing &lt;link&gt; element:
+    
+    &lt;link
+      href=&quot;https://fonts.googleapis.com/css?family=Rock+Salt&quot;
+      rel=&quot;stylesheet&quot;
+      type=&quot;text/css&quot; /&gt;
+
+    Now add the following CSS into your style.css file, below the previous addition:
+
+    Graphics and colors - Now onto graphics and colors! Because the table is full 
+    of punk and attitude, we need to give it some bright imposing styling to 
+    suit it. Don't worry, you don't have to make your tables this loud — you can 
+    opt for something more subtle and tasteful.
+
+    Start by adding the following CSS to your style.css file, again at the bottom:
+    
+    Zebra striping - zebra stripes — alternating rows of color that make the 
+    different data rows in your table easier to parse and read. Add the following 
+    CSS to the bottom of your style.css file:
+
+    /* zebra striping */
+
+    tbody tr:nth-child(odd) {
+      background-color: #ff33cc;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #e495e4;
+    }
+
+    tbody tr {
+      background-image: url(noise.png);
+    }
+
+    table {
+      background-color: #ff33cc;
+    }
+
+    Styling the caption - There is one last thing to do with our table — style 
+    the caption. To do this, add the following to the bottom of your style.css 
+    file:
+
+    /* caption */
+
+    caption {
+      font-family: &quot;Rock Salt&quot;, cursive;
+      padding: 20px;
+      font-style: italic;
+      caption-side: bottom;
+      color: #666;
+      text-align: right;
+      letter-spacing: 1px;
+    }
+
+    Table styling quick tips - 
+
+    - Make your table markup as simple as possible, and keep things flexible, 
+    e.g. by using percentages, so the design is more responsive.
+    - Use table-layout: fixed to create a more predictable table layout that 
+    allows you to easily set column widths by setting width on their headings (&lt;th&gt;).
+    - Use border-collapse: collapse to make table elements borders collapse into 
+    each other, producing a neater and easier to control look.
+    - Use &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; to break up your table 
+    into logical chunks and provide extra places to apply CSS to, so it is easier 
+    to layer styles on top of one another if required.
+    - Use zebra striping to make alternative rows easier to read.
+    - Use text-align to line up your &lt;th&gt; and &lt;td&gt; text, to make 
+    things neater and easier to follow.
+    ">
+
+    <title>A typical HTML table</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Rock+Salt"
+      rel="stylesheet"
+      type="text/css" />
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <table>
+        <caption>
+          A summary of the UK's most famous punk bands
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Band</th>
+            <th scope="col">Year formed</th>
+            <th scope="col">No. of Albums</th>
+            <th scope="col">Most famous song</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Buzzcocks</th>
+            <td>1976</td>
+            <td>9</td>
+            <td>Ever fallen in love (with someone you shouldn't've)</td>
+          </tr>
+          <tr>
+            <th scope="row">The Clash</th>
+            <td>1976</td>
+            <td>6</td>
+            <td>London Calling</td>
+          </tr>
+          <tr>
+            <th scope="row">The Damned</th>
+            <td>1976</td>
+            <td>10</td>
+            <td>Smash it up</td>
+          </tr>
+          <tr>
+            <th scope="row">Sex Pistols</th>
+            <td>1975</td>
+            <td>1</td>
+            <td>Anarchy in the UK</td>
+          </tr>
+          <tr>
+            <th scope="row">Sham 69</th>
+            <td>1976</td>
+            <td>13</td>
+            <td>If The Kids Are United</td>
+          </tr>
+          <tr>
+            <th scope="row">Siouxsie and the Banshees</th>
+            <td>1976</td>
+            <td>11</td>
+            <td>Hong Kong Garden</td>
+          </tr>
+          <tr>
+            <th scope="row">Stiff Little Fingers</th>
+            <td>1976</td>
+            <td>10</td>
+            <td>Suspect Device</td>
+          </tr>
+          <tr>
+            <th scope="row">The Stranglers</th>
+            <td>1974</td>
+            <td>17</td>
+            <td>No More Heroes</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2">Total albums</th>
+            <td>77</td>
+            <td>&nbsp;</td>
+          </tr>
+        </tfoot>
+      </table>
+    </body>
+</html>
+
