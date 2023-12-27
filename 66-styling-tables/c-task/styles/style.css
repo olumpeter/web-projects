@@ -88,3 +88,11 @@ tbody td {
 tfoot th {
   text-align: right;
 }
+
+tfoot tr :nth-child(1) {
+  text-align: right;
+}
+
+tfoot tr :nth-child(2) {
+  text-align: left;
+}

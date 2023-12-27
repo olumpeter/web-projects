@@ -78,6 +78,33 @@
       type=&quot;text/css&quot; /&gt;
 
     Now add the following CSS into your style.css file, below the previous addition:
+    /* typography */
+
+    html {
+      font-family: &quot;helvetica neue&quot;, helvetica, arial, sans-serif;
+    }
+
+    thead th,
+    tfoot th {
+      font-family: &quot;Rock Salt&quot;, cursive;
+    }
+
+    th {
+      letter-spacing: 2px;
+    }
+
+    td {
+      letter-spacing: 1px;
+    }
+
+    tbody td {
+      text-align: center;
+    }
+
+    tfoot th {
+      text-align: right;
+    }
+
 
     Graphics and colors - Now onto graphics and colors! Because the table is full 
     of punk and attitude, we need to give it some bright imposing styling to 
@@ -85,6 +112,21 @@
     opt for something more subtle and tasteful.
 
     Start by adding the following CSS to your style.css file, again at the bottom:
+
+    thead,
+    tfoot {
+      background: url(leopardskin.jpg);
+      color: white;
+      text-shadow: 1px 1px 1px black;
+    }
+
+    thead th,
+    tfoot th,
+    tfoot td {
+      background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+      border: 3px solid purple;
+    }
+
     
     Zebra striping - zebra stripes — alternating rows of color that make the 
     different data rows in your table easier to parse and read. Add the following 
