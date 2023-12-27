@@ -1,4 +1,6 @@
-# Fundamental CSS comprehension:  Project brief 
+# Fundamental CSS comprehension
+
+## Project brief 
 
 This project demonstrates how to style a  nifty little online business card, which can perhaps double as a gamer card or social media profile.
 
