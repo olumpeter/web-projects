@@ -7,10 +7,10 @@ The table shown in this project is about famous punk bands from the UK. Unfortun
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/66-styling-tables/a-a-typical-HTML-table//
+    https://olumpeter.github.io/web-projects/66-styling-tables/a-a-typical-HTML-table/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/66-styling-tables/a-a-typical-HTML-table//">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/66-styling-tables/a-a-typical-HTML-table/">Visit website</a>
   </dd>
 </dl>
