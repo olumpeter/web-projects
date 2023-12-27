@@ -332,4 +332,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Styling tables: A typical HTML table</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/66-styling-tables/b-styling-our-table">
         Styling tables: Spacing and layout | Some simple typography | Graphics and colors | Zebra striping | Styling the caption | Table styling quick tip</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/66-styling-tables/c-task">
+        Styling tables: Task</li>
 </ol>
