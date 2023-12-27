@@ -338,4 +338,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Fundamental CSS comprehension</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/68-creating-fancy-letterheaded-paper/create-fancy-letterheaded-paper">
         Creating fancy letterheaded paper </li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/69-a-cool-looking box/a-cool-looking box">
+        A cool-looking box</li>
 </ol>
