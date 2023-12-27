@@ -52,10 +52,10 @@ legible.
 Now we'll get our text sorted out a bit. First of all, we've found a font on Google Fonts that is suitable for a table about punk bands. You can go there and find a different one if you like; you'll just have to replace our provided <code>&lt;link&gt;</code> element and custom <code>font-family</code> declaration with the ones Google Fonts gives you. First, add the following <code>&lt;link&gt;</code> element into your HTML head, just above your existing <code>&lt;link&gt;</code> element:
 
 ```
-&lt;link
-  href=&quot;https://fonts.googleapis.com/css?family=Rock+Salt&quot;
-  rel=&quot;stylesheet&quot;
-  type=&quot;text/css&quot; /&gt;
+<link
+  href="https://fonts.googleapis.com/css?family=Rock+Salt"
+  rel="stylesheet"
+  type="text/css">;
 ```
 
 Now add the following CSS into your style.css file, below the previous addition:
@@ -107,7 +107,7 @@ tfoot td {
 
 ## Zebra striping
 
-zebra stripes — alternating rows of color that make the different data rows in your table easier to parse and read. Add the following <cCSS to the bottom of your <code>style.css file:
+zebra stripes — alternating rows of color that make the different data rows in your table easier to parse and read. Add the following <cCSS to the bottom of your <code>style.css</code> file:
 
 ```
 /* zebra striping */
@@ -149,7 +149,7 @@ caption {
 
 - Make your table markup as simple as possible, and keep things flexible, e.g. by using percentages, so the design is more responsive.
 - Use <code>table-layout: fixed</code> to create a more predictable table layout that allows you to easily set column widths by setting width on their headings (<code>&lt;th&gt;</code>).
-- Use <code>border-collapse: collapse to make table elements borders collapse into each other, producing a neater and easier to control look.
+- Use <code>border-collapse: collapse</code> to make table elements borders collapse into each other, producing a neater and easier to control look.
 - Use <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;tfoot&gt;</code> to break up your table into logical chunks and provide extra places to apply CSS to, so it is easier to layer styles on top of one another if required.
 - Use <code>zebra</code> striping to make alternative rows easier to read.
 - Use <code>text-align</code> to line up your <code>&lt;th&gt;</code> and <code>&lt;td&gt;</code> text, to make things neater and easier to follow.
