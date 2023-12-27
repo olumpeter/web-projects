@@ -159,10 +159,10 @@ caption {
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/66-styling-tables/66-styling-tables/b-styling-our-table/
+    https://olumpeter.github.io/web-projects/66-styling-tables/b-styling-our-table/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/66-styling-tables/66-styling-tables/b-styling-our-table/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/66-styling-tables/b-styling-our-table/">Visit website</a>
   </dd>
 </dl>
