@@ -53,7 +53,7 @@ The default styles can be turned off/changed using the following CSS properties:
 - <code>color</code> for the text color.
 - <code>cursor</code> for the mouse pointer style — you shouldn't turn this 
 off unless you've got a very good reason.
-- outline for the text outline. An outline is similar to a border. The only 
+- <code>outline</code> for the text outline. An outline is similar to a border. The only 
 difference is that a border takes up space in the box and an outline doesn't; 
 it just sits over the top of the background. The outline is a useful 
 accessibility aid, so should not be removed without adding another method of 
