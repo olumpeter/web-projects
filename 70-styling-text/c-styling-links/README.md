@@ -2,7 +2,7 @@
 
 ## Link states
 
-These can be styled using different pseudo-classes:
+These can be styled using different **pseudo-classes**:
 
 - **Link**: A link that has a destination (i.e., not just a named anchor), 
 styled using the :link pseudo class.
