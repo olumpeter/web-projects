@@ -66,7 +66,7 @@ off for some reason):
       - <code>overline</code>: Gives the text an overline.
       - <code>line-through</code>: Puts a strikethrough over the text.
       
-      You should note that text-decoration can accept multiple values at once if you want to add multiple decorations simultaneously, for example, text-decoration: underline overline. Also note that text-decoration is a shorthand property for text-decoration-line, text-decoration-style, and text-decoration-color. You can use combinations of these property values to create interesting effects, for example: text-decoration: line-through red wavy.
+You should note that text-decoration can accept multiple values at once if you want to add multiple decorations simultaneously, for example, text-decoration: underline overline. Also note that text-decoration is a shorthand property for text-decoration-line, text-decoration-style, and text-decoration-color. You can use combinations of these property values to create interesting effects, for example: text-decoration: line-through red wavy.
 
 ### Text drop shadows
 
