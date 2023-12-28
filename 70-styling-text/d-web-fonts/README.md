@@ -2,7 +2,7 @@
 
 ## Font families recap -
 The fonts applied to your HTML can be controlled using the 
-<code>font-family</code property. This takes one or more font family 
+<code>font-family</code> property. This takes one or more font family 
 names. When displaying a webpage, a browser will travel down a list of 
 <code>font-family</code> values until it finds a font available on the 
 system it is running on:
