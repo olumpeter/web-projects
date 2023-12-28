@@ -5,7 +5,7 @@
 These can be styled using different **pseudo-classes**:
 
 - **Link**: A link that has a destination (i.e., not just a named anchor), 
-styled using the :link pseudo class.
+styled using the <code>:link</code> pseudo class.
 - **Visited**: A link that has already been visited (exists in the browser's 
 history), styled using the <code>:visited</code> pseudo class.
 - **Hover**: A link that is hovered over by a user's mouse pointer, styled 
