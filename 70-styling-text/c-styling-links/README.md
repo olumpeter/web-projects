@@ -14,7 +14,7 @@ using the <code>:hover</code> pseudo class.
 the <kbd>Tab</kbd> key or something similar, or programmatically focused 
 using <code>HTMLElement.focus()</code>) — this is styled using the 
 <code>:focus</code> pseudo class.
-**Active**: A link that is activated (e.g., clicked on), styled using the 
+- **Active**: A link that is activated (e.g., clicked on), styled using the 
 <code>:active</code> pseudo class.
 
 ## Default styles
