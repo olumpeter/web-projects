@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Peter Olum">
+    <meta name="description" content="Styling text: 
+    Styling lists -  We'll look at unordered, ordered, and description lists — 
+    all have styling features that are similar, as well as some that are 
+    particular to themselves. 
+
+    Here are some of the default styles applied to elements before you 
+    explicitly specify author styles using CSS.
+      - The &lt;ul&gt; and &lt;ol&gt; elements have a top and bottom margin 
+      of 16px (1em) and a padding-left of 40px (2.5em). If the directionality 
+      attribute dir is set to right-to-left (rtl) for ul and ol elements, in 
+      that case padding-right comes into effect and its default value is 
+      40px (2.5em).
+      - The list items (&lt;li&gt; elements) have no set defaults for spacing.
+      - The &lt;dl&gt; element has a top and bottom margin of 16px (1em), but 
+      no padding set.
+      - The &lt;dd&gt; elements have margin-left of 40px (2.5em).
+      - The &lt;p&lt; elements we've included for reference have a top and 
+      bottom margin of 16px (1em) — the same as the different list types.
+
+    Handling list spacing
+
+    When styling lists, you need to adjust their styles so they keep the 
+    same vertical spacing as their surrounding elements (such as paragraphs 
+    and images; sometimes called vertical rhythm), and the same horizontal 
+    spacing as each other.
+
+    The CSS used for the text styling and spacing is as follows:
+
+    ```
+    /* General styles */
+
+    /* Rule 1 sets a sitewide font and a baseline font size of 10px. These are inherited 
+    by everything on the page. */
+    
+    html {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 10px;
+    }
+    
+    /* Rules 2 and 3 set relative font sizes for the headings, different list 
+    types (the children of the list elements inherit these), and paragraphs. 
+    This means that each paragraph and list will have the same font size and 
+    top and bottom spacing, helping to keep the vertical rhythm consistent. */
+    
+    h2 {
+      font-size: 2rem;
+    }
+    
+    ul, 
+    ol, 
+    dl, 
+    p {
+      font-size: 1.5rem;
+    }
+    
+    /* Rule 4 sets the same line-height on the paragraphs and list items — so the 
+    paragraphs and each individual list item will have the same spacing between 
+    lines. This will also help to keep the vertical rhythm consistent. */
+    
+    li, 
+    p {
+      line-height: 1.5;
+    }
+    
+    /* Description list styles */
+    
+    /* Rules 5 and 6 apply to the description list. We set the same line-height 
+    on the description list terms and descriptions as we did with the paragraphs 
+    and list items. Again, consistency is good! We also make the description 
+    terms have bold font, so they visually stand out easier. */
+    
+    dd, dt {
+      line-height: 1.5;
+    }
+    
+    dt {
+      font-weight: bold;
+    }
+    ```
+
+    List-specific styles
+
+    There are three properties you should know about to start with, which 
+    can be set on &lt;ul&gt; or &lt;ol&gt; elements:
+
+    - list-style-type: Sets the type of bullets to use for the list, for 
+    example, square or circle bullets for an unordered list, or numbers, 
+    letters, or roman numerals for an ordered list.
+    - list-style-position: Sets whether the bullets, at the start of each 
+    item, appear inside or outside the lists.
+    - list-style-image: Allows you to use a custom image for the bullet, 
+    rather than a simple square or circle.
+
+    Bullet styles
+    
+    The list-style-type property allows you to set what type of bullet to 
+    use for the bullet points. For example,
+
+    ```
+    /* Ordered list styles */
+
+    ol {
+      list-style-type: upper-roman;
+    }
+    ```
+
+    Bullet position
+
+    The list-style-position property sets whether the bullets appear inside 
+    the list items, or outside them before the start of each item. The 
+    default value is outside, which causes the bullets to sit outside the 
+    list items, as seen in this project. You can try this as an example,
+
+    ```
+    ol {
+      list-style-type: upper-roman;
+      list-style-position: inside;
+    }
+    ```
+    
+    Using a custom bullet image
+
+    The list-style-image property allows you to use a custom image for your 
+    bullet. The syntax is pretty simple:
+
+    ```
+    ul {
+      list-style-image: url(../images/star.svg);
+    }    
+    ```
+
+    In this project, we did more:
+
+    ```
+    /* Unordered list styles */
+
+    ul {
+      padding-left: 2rem;
+      list-style-type: none;
+    }
+
+    ul li {
+      padding-left: 2rem;
+      background-image: url(../images/star.svg);
+      background-position: 0 0;
+      background-size: 1.6rem 1.6rem;
+      background-repeat: no-repeat;
+    }
+    ```
+
+    - padding-left: 2rem; set the padding-left of the &lt;ul&gt; down from 
+    the default 40px to 20px, then set the same amount on the list items. 
+    This is so that, overall, the list items are still lined up with the 
+    ordered list items and the description list descriptions, but the list 
+    items have some padding for the background images to sit inside. If we 
+    didn't do this, the background images would overlap with the list item 
+    text, which would look messy.
+    - list-style-type: none; set the list-style-type to none, so that no 
+    bullet appears by default. We're going to use background properties to 
+    handle the bullets instead.
+    - ul li selects each list item in the unordered list so that we can 
+    insert a bullet onto each unordered list item.
+      - background-image: This references the path to the image file you 
+      want to use as the bullet.
+      - background-position: This defines where in the background of the 
+      selected element the image will appear — in this case we are saying 0 0, 
+      which means the bullet will appear in the very top left of each list item.
+      - background-size: This sets the size of the background image. We ideally 
+      want the bullets to be the same size as the list items (or very slightly 
+      smaller or larger). We are using a size of 1.6rem (16px), which fits very 
+      nicely with the 20px padding we've allowed for the bullet to sit inside 
+      — 16px plus 4px of space between the bullet and the list item text works 
+      well.
+      - background-repeat: By default, background images repeat until they fill 
+      up the available background space. We only want one copy of the image 
+      inserted in each case, so we set this to a value of no-repeat.
+
+    Controlling list counting
+    Sometimes you might want to count differently on an ordered list — e.g., 
+    starting from a number other than 1, or counting backwards, or counting 
+    in steps of more than 1. HTML and CSS have some tools to help you here.
+
+    start
+     
+    The start attribute allows you to start the list counting from a number 
+    other than 1. for example: &lt;ol start=&quot;4&quot;&gt;
+
+    reversed
+    
+    The reversed attribute will start the list counting down instead of up. 
+    For example:  &lt;ol start=&quot;4&quot; reversed&gt;
+    
+    value
+    
+    The value attribute allows you to set your list items to specific 
+    numerical values. The following example: &lt;li value=&quot;2&quot;&gt;,
+    &lt;li value=&quot;4&quot;&gt;, &lt;li value=&quot;6&quot;&gt;, 
+    &lt;li value=&quot;8&quot;&gt;
+
+    <title></title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+    <body>
+      <body>
+        <h2>Shopping (unordered) list</h2>
+    
+        <p>
+          Paragraph for reference, paragraph for reference, paragraph for 
+          reference, paragraph for reference, paragraph for reference, 
+          paragraph for reference.
+        </p>
+    
+        <ul>
+          <li>Hummus</li>
+          <li>Pitta</li>
+          <li>Green salad</li>
+          <li>Halloumi</li>
+        </ul>
+    
+        <h2>Recipe (ordered) list</h2>
+    
+        <p>
+          Paragraph for reference, paragraph for reference, paragraph for 
+          reference, paragraph for reference, paragraph for reference, 
+          paragraph for reference.
+        </p>
+    
+        <ol start="4">
+          <li>Toast pitta, leave to cool, then slice down the edge.</li>
+          <li>Fry the halloumi in a shallow, non-stick pan, until browned on 
+            both sides.</li>
+          <li>Wash and chop the salad.</li>
+          <li>Fill pitta with salad, hummus, and fried halloumi.</li>
+        </ol>
+    
+        <h2>Ingredient description list</h2>
+    
+        <p>
+          Paragraph for reference, paragraph for reference, paragraph for 
+          reference, paragraph for reference, paragraph for reference, 
+          paragraph for reference.
+        </p>
+    
+        <dl>
+          <dt>Hummus</dt>
+          <dd>A thick dip/sauce generally made from chick peas blended with 
+            tahini, lemon juice, salt, garlic, and other ingredients.</dd>
+          <dt>Pitta</dt>
+          <dd>A soft, slightly leavened flatbread.</dd>
+          <dt>Halloumi</dt>
+          <dd>A semi-hard, unripened, brined cheese with a higher-than-usual 
+            melting point, usually made from goat/sheep milk.</dd>
+          <dt>Green salad</dt>
+          <dd>That green healthy stuff that many of us just use to garnish 
+            kebabs.</dd>
+        </dl>
+    </body>
+</html>
+
