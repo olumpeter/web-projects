@@ -89,7 +89,7 @@ example, the styles in the first rule will apply to all the subsequent ones.
 When a link is activated, it's usually also hovered over. If you put these 
 in the wrong order, and you're changing the same properties in each ruleset, 
 things won't work as you expect. To remember the order, you could try using a 
-mnemonic like **L**o**V**e **F**ears **H****A**te.
+mnemonic like **L**o**V**e **F**ears **HA**te.
 
 Including icons on links
 
