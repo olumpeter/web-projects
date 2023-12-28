@@ -6,7 +6,7 @@ Here, we'll go through all the basic fundamentals of text/font styling in detail
 
 Text inside an element is laid out inside the **element's content box**. It starts at the **top left** of the **content area**, and flows towards the end of the line. Once it reaches the end, it goes down to the next line and flows to the end again. This pattern repeats until all the content has been placed in the box. 
 Text content effectively behaves like a series of **inline elements**, being laid out on lines adjacent to one another, and not creating line breaks until the 
-end of the line is reached, or unless you force a line break manually using the <code>&lt;br&gt; element.
+end of the line is reached, or unless you force a line break manually using the <code>&lt;br&gt;</code> element.
 
 The CSS properties used to style text generally fall into two categories:
 - **Font styles**: Properties that affect a text's font, e.g., which font gets applied, its size, and whether it's bold, italic, etc.
