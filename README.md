@@ -350,4 +350,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Styling text: Web fonts</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/70-styling-text/e-google-fonts">
         Styling text: Google fonts</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/71-typesetting-a-community-school-homepage/project">
+        Styling text: Typesetting a community school homepage</li>
 </ol>
