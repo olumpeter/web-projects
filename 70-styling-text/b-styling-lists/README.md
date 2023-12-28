@@ -25,7 +25,11 @@ html {
   font-size: 10px;
 }
 
-/* Rules 2 and 3 set relative font sizes for the headings, different list types (the children of the list elements inherit these), and paragraphs. This means that each paragraph and list will have the same font size and top and bottom spacing, helping to keep the vertical rhythm consistent. */
+/*
+Rules 2 and 3 set relative font sizes for the headings, different list types (the children of
+the list elements inherit these), and paragraphs. This means that each paragraph and list will
+have the same font size and top and bottom spacing, helping to keep the vertical rhythm consistent.
+*/
 
 h2 {
   font-size: 2rem;
@@ -38,7 +42,11 @@ p {
   font-size: 1.5rem;
 }
 
-/* Rule 4 sets the same line-height on the paragraphs and list items — so the paragraphs and each individual list item will have the same spacing between lines. This will also help to keep the vertical rhythm consistent. */
+/*
+Rule 4 sets the same line-height on the paragraphs and list items — so the paragraphs and each
+individual list item will have the same spacing between lines. This will also help to keep the
+vertical rhythm consistent.
+*/
 
 li, 
 p {
@@ -47,7 +55,11 @@ p {
 
 /* Description list styles */
 
-/* Rules 5 and 6 apply to the description list. We set the same line-height on the description list terms and descriptions as we did with the paragraphs and list items. Again, consistency is good! We also make the description terms have bold font, so they visually stand out easier. */
+/*
+Rules 5 and 6 apply to the description list. We set the same line-height on the description
+list terms and descriptions as we did with the paragraphs and list items. Again, consistency
+is good! We also make the description terms have bold font, so they visually stand out easier.
+*/
 
 dd, dt {
   line-height: 1.5;
