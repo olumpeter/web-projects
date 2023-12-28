@@ -91,7 +91,7 @@ in the wrong order, and you're changing the same properties in each ruleset,
 things won't work as you expect. To remember the order, you could try using a 
 mnemonic like **L**o**V**e **F**ears **HA**te.
 
-Including icons on links
+## Including icons on links
 
 A common practice is to include icons on links to provide more of an 
 indicator as to what kind of content the link points to. For example:
