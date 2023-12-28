@@ -340,4 +340,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Creating fancy letterheaded paper </li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/69-a-cool-looking-box/a-cool-looking-box">
         A cool-looking box</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/70-styling-text/a-fundamental-text-and-font-styling">
+        Styling text: Fundamental text and font styling</li>
 </ol>
