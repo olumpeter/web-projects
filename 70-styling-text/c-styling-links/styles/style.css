@@ -1,0 +1,116 @@
+/* General style */
+html {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+body > div {
+  margin-bottom: 100px;
+}
+
+/* default-style class*/
+.default-style p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* styling-some-links class */
+
+.styling-some-links p {
+  line-height: 1.4;
+}
+
+.styling-some-links a {
+  outline-color: transparent;
+}
+
+.styling-some-links a:link {
+  color: #6900ff;
+}
+
+.styling-some-links a:visited {
+  color: #a5c300;
+}
+
+.styling-some-links a:focus {
+  text-decoration: none;
+  background: #bae498;
+}
+
+.styling-some-links a:hover {
+  text-decoration: none;
+  background: #cdfeaa;
+}
+
+.styling-some-links a:active {
+  background: #6900ff;
+  color: #cdfeaa;
+}
+
+/* including-icons-on-links class */
+
+.including-icons-on-links p {
+  line-height: 1.4;
+}
+
+.including-icons-on-links a {
+  outline-color: transparent;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.including-icons-on-links a:link {
+  color: blue;
+}
+
+.including-icons-on-links a:visited {
+  color: purple;
+}
+
+.including-icons-on-links a:focus,
+a:hover {
+  border-bottom: 1px solid;
+}
+
+.including-icons-on-links a:active {
+  color: red;
+}
+
+.including-icons-on-links a[href^="http"] {
+  background: url("../images/icons8-external-link-26.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+/* Styling links as buttons */
+
+.styling-links-as-buttons .container {
+  display: flex;
+  gap: 0.625%;
+}
+
+.styling-links-as-buttons a {
+  flex: 1;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+.styling-links-as-buttons a:link,
+.styling-links-as-buttons a:visited,
+.styling-links-as-buttons a:focus {
+  background: palegoldenrod;
+  color: black;
+}
+
+.styling-links-as-buttons a:hover {
+  background: orange;
+}
+
+.styling-links-as-buttons a:active {
+  background: darkred;
+  color: white;
+}
