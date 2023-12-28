@@ -348,4 +348,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Styling text: Styling links</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/70-styling-text/d-web-fonts">
         Styling text: Web fonts</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/70-styling-text/e-google-fonts">
+        Styling text: Google fonts</li>
 </ol>
