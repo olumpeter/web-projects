@@ -171,7 +171,7 @@ contains these rules:
   - The first declaration, <code>flex: 1</code>, means that the widths of 
   the items will be adjusted so they use all the available space in the 
   container.
-  - Next, we turn off the default <code>text-decoration</code and 
+  - Next, we turn off the default <code>text-decoration</code> and 
     <code>outline</code> — we don't want those spoiling our look.
   - <code>text-align: center;</code> declaration is used to center the 
   text inside each link. 
