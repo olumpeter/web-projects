@@ -180,7 +180,7 @@ contains these rules:
   centering the text vertically)
   - <code>color: black;</code> is used to set the text color to black.
  
-  ## How you can access this live website
+## How you can access this live website
 
 <dl>
   Use the following URL:
