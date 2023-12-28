@@ -13,32 +13,32 @@ The CSS properties used to style text generally fall into two categories:
 - **Text layout styles**: Properties that affect the spacing and other layout features of the text, allowing manipulation of, for example, the space between lines and letters, and how the text is aligned within the content box.
 
 **Note**: Bear in mind that the text inside an element is all affected as one single entity. You can't select and style subsections of text unless you 
-wrap them in an appropriate element (such as a <code>&lt;span&gt; or <code>&lt;strong&gt;), or use a text-specific pseudo-element like <code>::first-letter (selects the first letter of an element's text), <code>::first-line (selects the first line of an element's text), or <code>::selection (selects the text currently highlighted by the cursor).
+wrap them in an appropriate element (such as a <code>&lt;span&gt;</code> or <code>&lt;strong&gt;</code>), or use a text-specific pseudo-element like <code>::first-letter</code> (selects the first letter of an element's text), <code>::first-line</code> (selects the first line of an element's text), or <code>::selection </code>(selects the text currently highlighted by the cursor).
 
 ## Fonts 
 
 Let's look at properties for styling fonts:
 
-- The <code>color property sets the color of the foreground content of the selected elements, which is usually the text, but can also include a couple of other 
-things, such as an <code>underline or <code>overline placed on text using the <code>text-decoration property.
-- To set a different font for your text, you use the <code>font-family property — this allows you to specify a font (or list of fonts) for the browser to apply 
+- The <code>color</code> property sets the color of the foreground content of the selected elements, which is usually the text, but can also include a couple of other 
+things, such as an <code>underline</code> or <code>overline</code> placed on text using the <code>text-decoration</code> property.
+- To set a different font for your text, you use the <code>font-family</code> property — this allows you to specify a font (or list of fonts) for the browser to apply 
 to the selected elements. The browser will only apply a font if it is available on the machine the website is being accessed on; if not, it will just use a 
 browser default font. Here is a list of default fonts:
-  - <code>serif - Fonts that have serifs (the flourishes and other small details you see at the ends of the strokes in some typefaces).
-  - sans-serif - Fonts that don't have serifs.
-  - monospace - Fonts where every character has the same width, typically used in code listings.
-  - cursive - Fonts that are intended to emulate handwriting, with flowing, connected strokes.
-  - fantasy - Fonts that are intended to be decorative.
+  - <code>serif</code> - Fonts that have serifs (the flourishes and other small details you see at the ends of the strokes in some typefaces).
+  - <code>sans-serif</code> - Fonts that don't have serifs.
+  - <code>monospace</code> - Fonts where every character has the same width, typically used in code listings.
+  - <code>cursive</code> - Fonts that are intended to emulate handwriting, with flowing, connected strokes.
+  - <code>fantasy</code> - Fonts that are intended to be decorative.
   
 ### Font size
 
 The most common units you'll use to size text are:
-- <code>px (pixels): This is an absolute unit — it results in the same final computed value for the font on the page in pretty much any situation.
-- <code>ems: 1 em is equal to the font size set on the parent element of the current element we are styling (more specifically, the width of a capital 
+- <code>px</code> (pixels): This is an absolute unit — it results in the same final computed value for the font on the page in pretty much any situation.
+- <code>ems</code>: 1 em is equal to the font size set on the parent element of the current element we are styling (more specifically, the width of a capital 
 letter M contained inside the parent element). This can become tricky to work out if you have a lot of nested elements with different font sizes set, but it is doable. Why bother? It is quite natural once you get used to it, and you can use em to size everything, not just text. You can have an entire website sized using em, which makes maintenance easy.
-- <code>rems: These work just like <code>em, except that **1 rem** is equal to the font size set on the root element of the document (i.e. <code>&lt;html&gt;), not the parent element. This makes doing the maths to work out your font sizes much easier.
+- <code>rems</code>: These work just like <code>em</code>, except that **1 rem** is equal to the font size set on the root element of the document (i.e. <code>&lt;html&gt;</code>), not the parent element. This makes doing the maths to work out your font sizes much easier.
 
-The <code>font-size of an element is inherited from that element's parent element. This all starts with the root element of the entire document — <code>&lt;html&gt; — the standard <code>font-size of which is set to <code>16px across browsers. Any paragraph (or another element that doesn't have a different size set by the browser) inside the root element will have a final size of <code>16px. Other elements may have different default sizes. For example, an h1 element has a size of<code>2em set by default, so it will have a final size of <code>32px.
+The <code>font-size</code> of an element is inherited from that element's parent element. This all starts with the root element of the entire document — <code>&lt;html&gt;</code> — the standard <code>font-size</code> of which is set to <code>16px</code> across browsers. Any paragraph (or another element that doesn't have a different size set by the browser) inside the root element will have a final size of <code>16px</code>. Other elements may have different default sizes. For example, an h1 element has a size of<code>2em</code> set by default, so it will have a final size of <code>32px</code>.
 
 ### Font style, font weight, text transform, and text decoration
 
