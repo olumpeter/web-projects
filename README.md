@@ -344,4 +344,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Styling text: Fundamental text and font styling</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/70-styling-text/b-styling-lists">
         Styling text: Styling lists</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/70-styling-text/c-styling-links">
+        Styling text: Styling links</li>
 </ol>
