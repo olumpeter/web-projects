@@ -373,5 +373,5 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/2-static-positioning">
         CSS layout - Positioning: Static positioning</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/3-relative-positioning">
-        CSS layout - Positioning: Static positioning</li>
+        CSS layout - Positioning: Relative positioning</li>
 </ol>
