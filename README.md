@@ -374,4 +374,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Positioning: Static positioning</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/3-relative-positioning">
         CSS layout - Positioning: Relative positioning</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/4-absolute-positioning">
+        CSS layout - Positioning: Absolute positioning</li>
 </ol>
