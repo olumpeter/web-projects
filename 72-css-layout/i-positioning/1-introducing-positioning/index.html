@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta 
+      charset="utf-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width">
+    <meta 
+      name="author" 
+      content="Peter Olum">
+    <meta 
+      name="description" 
+      content="# CSS layout - Positioning
+      Positioning allows you to take elements out of normal document flow and make 
+      them behave differently, for example, by sitting on top of one another or by 
+      always remaining in the same place inside the browser viewport. This article 
+      explains the different position values and how to use them.
+
+      ## Introducing positioning
+
+      Positioning allows us to produce interesting results by overriding normal 
+      document flow. What if you want to slightly alter the position of some boxes 
+      from their default flow position to give a slightly quirky, distressed feel? 
+      Positioning is your tool. Or what if you want to create a UI element that 
+      floats over the top of other parts of the page and/or always sits in the same 
+      place inside the browser window no matter how much the page is scrolled? 
+      Positioning makes such layout work possible.
+
+      There are a number of different types of positioning that you can put into 
+      effect on HTML elements. To make a specific type of positioning active on an 
+      element, we use the `position` property.
+    ">
+    
+    <title>Introducing positioning</title>
+
+    <link 
+      href="styles/style.css" 
+      rel="stylesheet" 
+      type="text/css">
+
+  </head>
+  <body>
+    <h1>Introducing positioning</h1>
+
+    <div class="basic-document-flow">
+      <h2>Basic document flow</h2>
+
+      <p>
+        I am a basic block level element. My adjacent block level elements sit on 
+        new lines below me.
+      </p>
+
+      <p>
+        By default we span 100% of the width of our parent element, and our height 
+        is as tall as our child content. Our total width and height is our content + 
+        padding + border width/height.
+      </p>
+  
+      <p>
+        We are separated by our margins. Because of margin collapsing, we are 
+        separated by the width of one of our margins, not both.
+      </p>
+  
+      <p>
+        inline elements <span>like this one</span> and <span>this one</span> sit on 
+        the same line as one another, and adjacent text nodes, if there is space on 
+        the same line. Overflowing inline elements <span>wrap onto a new line if 
+        possible — like this one containing text</span>, or just go on to a new line 
+        if not, much like this image will do: 
+        <img src="long.jpg" alt="a wide but short section of a photo of several fabrics">
+      </p>  
+    </div>
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta 
+      charset="utf-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width">
+    <meta 
+      name="author" 
+      content="Peter Olum">
+    <meta 
+      name="description" 
+      content="# CSS layout - Sticky positioning
+      
+      There is another position value available called `position: sticky`, which 
+      is somewhat newer than the others. This is basically a hybrid between 
+      relative and fixed position. It allows a positioned element to act like 
+      it's relatively positioned until it's scrolled to a certain threshold 
+      (e.g., 10px from the top of the viewport), after which it becomes fixed.
+
+      ## Basic example
+      
+      Sticky positioning can be used, for example, to cause a navigation bar to 
+      scroll with the page until a certain point and then stick to the top of the 
+      page.
+
+      ```
+      .positioned {
+        position: sticky;
+        top: 30px;
+        left: 30px;
+      }
+      ```
+
+      ### Scrolling index
+
+      An interesting and common use of position: sticky is to create a scrolling 
+      index page where different headings stick to the top of the page as they 
+      reach it. The markup for such an example might look like so:
+      ">
+    
+    <title>Sticky positioning</title>
+
+    <link 
+      href="styles/style.css" 
+      rel="stylesheet" 
+      type="text/css">
+
+  </head>
+  <body>
+    <h1>Sticky positioning</h1>
+
+    <div class="sticky-positioning">
+      <h2>Sticky positioning example</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+        dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
+        ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
+        laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+        tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus
+        neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat
+        volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros
+        pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec
+        lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.
+      </p>
+      
+      <div class="positioned">Sticky</div>
+      
+      <p>
+        Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada
+        ultrices. Phasellus turpis est, posuere sit amet dapibus ut, facilisis sed
+        est. Nam id risus quis ante semper consectetur eget aliquam lorem. Vivamus
+        tristique elit dolor, sed pretium metus suscipit vel. Mauris ultricies lectus
+        sed lobortis finibus. Vivamus eu urna eget velit cursus viverra quis
+        vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum sociis natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
+      
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+        dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
+        ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
+        laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+        tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus
+        neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat
+        volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros
+        pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec
+        lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.
+      </p>
+    </div>
+
+    <div class="scrolling-index">
+      <h2>Scrolling index</h2>
+
+      <dl>
+        <dt>A</dt>
+        <dd>Apple</dd>
+        <dd>Ant</dd>
+        <dd>Altimeter</dd>
+        <dd>Airplane</dd>
+        <dt>B</dt>
+        <dd>Bird</dd>
+        <dd>Buzzard</dd>
+        <dd>Bee</dd>
+        <dd>Banana</dd>
+        <dd>Beanstalk</dd>
+        <dt>C</dt>
+        <dd>Calculator</dd>
+        <dd>Cane</dd>
+        <dd>Camera</dd>
+        <dd>Camel</dd>
+        <dt>D</dt>
+        <dd>Duck</dd>
+        <dd>Dime</dd>
+        <dd>Dipstick</dd>
+        <dd>Drone</dd>
+        <dt>E</dt>
+        <dd>Egg</dd>
+        <dd>Elephant</dd>
+        <dd>Egret</dd>
+      </dl>
+    </div>
+  </body>
+</html>
+

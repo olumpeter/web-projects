@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta 
+      charset="utf-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width">
+    <meta 
+      name="author" 
+      content="Peter Olum">
+    <meta 
+      name="description" 
+      content="# CSS layout - Responsive design
+
+      ## A simple grid-based responsive design
+
+      In CSS Grid Layout the `fr` unit allows the distribution of available space 
+      across grid tracks. The next example creates a grid container with three tracks 
+      sized at 1fr. This will create three column tracks, each taking one part of the 
+      available space in the container. You can find out more about this approach to 
+      create a grid in the Learn Layout Grids topic, under 
+      [Flexible grids with the fr unit](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids#flexible_grids_with_the_fr_unit).
+      
+      ```
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      ```
+      ">
+    
+    <title>A simple grid-based responsive design</title>
+
+    <link 
+      href="styles/style.css" 
+      rel="stylesheet" 
+      type="text/css">
+
+  </head>
+  <body>
+    <h1>A simple grid-based responsive design</h1>
+
+    <div class="wrapper">
+      <div class="col-1">
+        <p>
+          This layout is responsive. See what happens if you make the browser
+          window wider or narrow.
+        </p>
+      </div>
+      <div class="col-2">
+        <p>
+          One November night in the year 1782, so the story runs, two brothers
+          sat over their winter fire in the little French town of Annonay,
+          watching the grey smoke-wreaths from the hearth curl up the wide
+          chimney. Their names were Stephen and Joseph Montgolfier, they were
+          papermakers by trade, and were noted as possessing thoughtful minds
+          and a deep interest in all scientific knowledge and new discovery.
+        </p>
+        <p>
+          Before that night—a memorable night, as it was to prove—hundreds of
+          millions of people had watched the rising smoke-wreaths of their fires
+          without drawing any special inspiration from the fact.”
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+

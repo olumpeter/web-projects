@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta 
+      charset="utf-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width">
+    <meta 
+      name="author" 
+      content="Peter Olum">
+    <meta 
+      name="description" 
+      content="# CSS layout - Positioning 
+
+      ## Task 1
+
+      In this task, we want you to position the item with a class of target to 
+      the top and right of the container, which has the 5px grey border.
+
+      ## Additional question:
+
+      As an extra challenge, can you change the target to display underneath the 
+      text?
+
+      ## Marking Guide
+
+      This task covers understanding of `position: relative` and 
+      `position: absolute` and how they relate to each other in terms of relative 
+      positioning creating a new positioning context.
+
+      A likely issue will be that the student adds `position: absolute` to the 
+      child but does not apply `position: relative` to the container. In that 
+      case the target will end up being positioned according to the viewport.
+
+      For the extra task, the student needs to add a negative z-index to the 
+      target, for example z-index: -2.
+      ">
+    
+    <title>Positioning Task 1</title>
+
+    <link 
+      href="styles/style.css" 
+      rel="stylesheet" 
+      type="text/css">
+
+  </head>
+  <body>
+    <h1>Positioning Task 1</h1>
+
+    <div class="container">
+      <p>
+        Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+        onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+      </p>
+      <div class="target">Target</div>
+      <p>
+        Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
+        courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+        wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+      </p>
+    </div>
+  </body>
+</html>
+

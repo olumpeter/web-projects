@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta 
+      charset="utf-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width">
+    <meta 
+      name="author" 
+      content="Peter Olum">
+    <meta 
+      name="description" 
+      content="# CSS layout - Test your skills multiple-column layout
+
+      ## Task 1
+
+      In this task, we want you to create three columns, with a 50px gap between 
+      each column.
+
+      ### Marking guide
+
+      This task covers understanding of `column-count` and `column-gap`.
+
+      .task-1 {
+        column-count: 3;
+        column-gap: 50px;
+      }
+
+      ## Task 2
+
+      In this task, we want you to create columns which have a minimum width of 
+      200px. Then, add a 5px grey rule between each column, ensuring there is 10px 
+      of space between the edge of the rule and the column content.
+
+      ### Marking guide
+
+      In this task we test for understanding of `column-width`, `column-rule`, and 
+      the fact that a rule does not change the size of the gap.
+
+      ```
+      .task-2 {
+        column-width: 200px;
+        column-rule: 5px solid #ccc;
+        column-gap: 25px;
+      }      
+      ```
+
+      The student has been asked to create columns which will be at least 200 
+      pixels wide, assuming there is space for more than one column. So they will 
+      need to use the `column-width` property.
+      
+      They could use the longhand column-rule-* properties instead of the 
+      shorthand, though there is no benefit to doing so.
+      
+      The key thing with the use of column-gap is that they have understood that 
+      the rule does not add 5px of space to the gap. To have 10px either side of 
+      the rule they need a 25px gap as the rule is laid over it.
+
+      ## Task 3
+
+      In this task, we want you to cause the element containing the heading and 
+      subheading to span across all columns.
+
+      ### Marking guide
+
+      In this task we test for understanding of the column-span property.
+
+      All the student needs to do is set the element with a class of `.box` to 
+      `column-span: all`. This is mostly a task of checking that they select the 
+      right element.
+
+      ">
+    
+    <title>Multiple-column layout</title>
+
+    <link 
+      href="styles/style.css" 
+      rel="stylesheet" 
+      type="text/css">
+
+  </head>
+  <body>
+    <h1>Test your skills: Multiple-column layout</h1>
+
+    <div class="task-1">
+      <h2>Task 1</h2>
+      
+      <p>
+        Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+        onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+      </p>
+
+      <p>
+        Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
+        courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+        wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+      </p>
+
+      <p>
+        Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+        kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
+        winter purslane kale. Celery potato scallion desert raisin horseradish
+        spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
+        shoot green bean swiss chard seakale pumpkin onion chickpea gram corn
+        pea.
+      </p>
+    </div>
+
+    <div class="task-2">
+      <h2>Task 2</h2>
+
+      <p>
+        Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+        onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+      </p>
+
+      <p>
+        Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
+        courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+        wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+      </p>
+
+      <p>
+        Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+        kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
+        winter purslane kale. Celery potato scallion desert raisin horseradish
+        spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
+        shoot green bean swiss chard seakale pumpkin onion chickpea gram corn
+        pea.
+      </p>
+    </div>
+
+    <div class="task-2">
+      <p>
+        Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+        onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+      </p>
+
+      <p>
+        Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
+        courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+        wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+      </p>
+
+      <p>
+        Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+        kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
+        winter purslane kale. Celery potato scallion desert raisin horseradish
+        spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
+        shoot green bean swiss chard seakale pumpkin onion chickpea gram corn
+        pea.
+      </p>
+    </div>
+
+    <div class="task-3">
+      <h2>Task 3</h2>
+
+      <p>
+        Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+        onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+      </p>
+
+      <p>
+        Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
+        courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+        wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+      </p>
+      <div class="box">
+        <h2>I am a level 2 heading</h2>
+        <div class="subhead">Lotus root water spinach fennel</div>
+      </div>
+      <p>
+        Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+        kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
+        winter purslane kale. Celery potato scallion desert raisin horseradish
+        spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
+        shoot green bean swiss chard seakale pumpkin onion chickpea gram corn
+        pea.
+      </p>
+    </div>
+  </body>
+</html>
+

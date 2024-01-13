@@ -1,0 +1,44 @@
+html {
+  font-size: 1em;
+}
+
+body {
+  font:
+    1.2em Helvetica,
+    Arial,
+    sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #eee;
+}
+
+body > div {
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 2em auto;
+}
+
+h2 {
+  font-size: calc(1.5rem + 3vw);
+  margin: 0;
+}
+
+.col-1,
+.col-2 {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  .using-viewport-units-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5%;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+}

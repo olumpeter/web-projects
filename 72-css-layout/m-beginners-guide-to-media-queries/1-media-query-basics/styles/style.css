@@ -1,0 +1,43 @@
+html {
+  font-size: 1em;
+}
+
+body > div {
+  margin-bottom: 50px;
+}
+
+@media screen and (width: 600px) {
+  .width-and-height-example-1 {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .width-and-height-example-2 {
+    color: blue;
+  }
+}
+
+@media (orientation: landscape) {
+  .orientation-example-3 {
+    color: rebeccapurple;
+  }
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .and-logic-in-media-queries {
+    color: blue;
+  }
+}
+
+@media screen and (min-width: 600px), screen and (orientation: landscape) {
+  .or-logic-in-media-queries {
+    color: blue;
+  }
+}
+
+@media not all and (orientation: landscape) {
+  body {
+    color: blue;
+  }
+}

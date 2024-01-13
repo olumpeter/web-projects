@@ -1,0 +1,118 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: purple;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+
+body > div {
+  margin-bottom: 100px;
+}
+
+/* Add your flexbox CSS below here */
+
+/* Introducing a simple example */
+
+.sample-flexbox-example section {
+  display: flex;
+}
+
+/* Flexbox wrapping */
+
+.flexbox-wrapping section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexbox-wrapping article {
+  flex: 200px;
+} 
+
+/* Flexible sizing of flex items */
+
+.flexible-sizing-of-flex-items section {
+  display: flex;
+}
+
+.flexible-sizing-of-flex-items article {
+  flex: 1 200px;
+}
+
+.flexible-sizing-of-flex-items article:nth-of-type(3) {
+  flex: 2 200px;
+}
+
+/* Horizontal and vertical alignment */
+
+.horizontal-and-vertical-alignment div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Ordering flex items */
+
+.ordering-flex-items  div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ordering-flex-items button:first-child {
+  order: 1;
+}
+
+.ordering-flex-items button:last-child {
+  order: -1;
+}
+
+/* Nested flex boxes */
+
+.nested-flex-boxes section {
+  display: flex;
+}
+
+.nested-flex-boxes  article {
+  flex: 1 200px;
+}
+
+.nested-flex-boxes article:nth-of-type(3) {
+  flex: 3 200px;
+  display: flex;
+  flex-flow: column;
+}
+
+.nested-flex-boxes article:nth-of-type(3) div {
+  display: flex;
+  flex: 1 100px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nested-flex-boxes button {
+  flex: 1 auto;
+  margin: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}

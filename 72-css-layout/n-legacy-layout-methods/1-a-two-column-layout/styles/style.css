@@ -1,0 +1,15 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}      
+
+.a-two-column-layout > .first-column {
+  width: 48%;
+  float: left;
+}
+
+.a-two-column-layout > .second-column {
+  width: 48%;
+  float: right;
+}

@@ -1,0 +1,55 @@
+/* basic-document-flow */
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+
+/* Sticky positioning */
+
+.sticky-positioning,
+.scrolling-index {
+  width: 500px;
+  height: 2000px;
+  margin: 0 auto;
+}
+
+
+.positioned {
+  background: rgb(255 84 104 / 30%);
+  border: 2px solid rgb(255 84 104);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.positioned {
+  position: sticky;
+  top: 30px;
+  left: 30px;
+}
+
+/* Scrolling index */
+
+.scrolling-index dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+}
