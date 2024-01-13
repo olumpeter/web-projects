@@ -1,6 +1,4 @@
-# CSS layout - Positioning
-
-## Relative positioning
+# CSS layout - Positioning: Relative positioning
 
 Relative positioning is the first position type we'll take a look at. This is 
 very similar to static positioning, except that once the positioned element 
