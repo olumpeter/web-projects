@@ -404,4 +404,8 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Test your skills: Responsive web design and media queries - Task</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/n-legacy-layout-methods/1-a-two-column-layout">
         Legacy layout methods - A two column layout</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/n-legacy-layout-methods/2-a-simple-fixed-width-grid">
+        Legacy layout methods - A simple fixed width grid</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/n-legacy-layout-methods/3-creating-a-fluid-grid/">
+        Legacy layout methods - Creating a fluid grid</li>
 </ol>
