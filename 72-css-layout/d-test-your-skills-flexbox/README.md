@@ -11,8 +11,8 @@ laid out as a row, with an equal amount of space between each item.
 
 The aim of this task is to show understanding of the default behavior of Flexbox, and how you do not need to do a lot of work to acheive many patterns.
 
-To solve this task the you need to use <code>display: flex</code> on the 
-parent, and also <code>justify-content: space-between</code>. You do not need 
+To solve this task the you need to use `display: flex` on the 
+parent, and also `justify-content: space-between`. You do not need 
 to use the flex property or any of the longhands on the children, as the 
 defaults will cause them to display auto sized and not grow to fill the 
 inline dimension.
@@ -30,11 +30,11 @@ In this task, the list items are all different sizes, but we want them to be
 displayed as three equal sized columns, no matter what content is in each 
 item.
 
-The aim of this task is to demonstrate an understanding of the <code>flex</code> 
+The aim of this task is to demonstrate an understanding of the `flex` 
 property, and in particular the way that flex-basis works.
 
-It would be correct for you to have used <code>flex: 1</code> on the 
-<code>li</code> or <code>flex: 1 0 0</code>, or <code>flex: 1 1 0</code>. 
+It would be correct for you to have used `flex: 1` on the 
+`li` or `flex: 1 0 0`, or `flex: 1 1 0`. 
 The key thing is that they have set the flex-basis to 0. It would also be 
 correct to use the longhands, for example:
   
@@ -44,7 +44,7 @@ correct to use the longhands, for example:
   flex-basis: 0;
   ```
 However as the specification advises use of the shorthands, in this scenario 
-<code>flex: 1</code> is probably the best answer of all of these, and so the 
+`flex: 1` is probably the best answer of all of these, and so the 
 most optimal result would be:
   
   ```
@@ -62,7 +62,7 @@ Additional question:
   - Can you now make the first item twice the size of the other items?
 
 You should add an additional selector that targets the first element and sets 
-<code>flex: 2;</code> (or <code>flex: 2 0 0;</code> or <code>flex-grow: 2</code):
+`flex: 2;` (or `flex: 2 0 0;` or `flex-grow: 2</code):
 
   ```
   .task-2-additional-question li:first-child {
@@ -72,8 +72,8 @@ You should add an additional selector that targets the first element and sets
 
 ## Task 3
 
-In this task, there are two elements in the HTML below, a &gt;div&lt; element 
-with a class of parent which contains another &lt;div&gt; element with a class 
+In this task, there are two elements in the HTML below, a `&gt;div&lt;` element 
+with a class of parent which contains another `&lt;div&gt;` element with a class 
 of child. Use flexbox to center the child inside the parent. Note that there 
 is not just one possible solution here.
 
@@ -94,10 +94,10 @@ On the parent they should use:
 
 In this task, we want you to arrange these items into rows as in the image below:
 
-This example demonstrates understanding of the <code>flex-wrap</code> property 
+This example demonstrates understanding of the `flex-wrap` property 
 to wrap flex lines. In addition, to ensure that they end up with something 
-that looks like the example they need to set <code>flex: auto</code> on the child 
-(or <code>flex: 1 1 auto;</code>).
+that looks like the example they need to set `flex: auto` on the child 
+(or `flex: 1 1 auto;`).
 
   ```
   ul {
