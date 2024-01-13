@@ -1,0 +1,193 @@
+# CSS layout - Beginner's guide to media queries
+
+The **CSS Media Query** gives you a way to apply CSS only when the browser 
+and device environment matches a rule that you specify, for example 
+&quot;viewport is wider than 480 pixels&quot;. Media queries are a key 
+part of responsive web design, as they allow you to create different 
+layouts depending on the size of the viewport, but they can also be used to 
+detect other things about the environment your site is running on, for 
+example whether the user is using a touchscreen rather than a mouse.
+
+## Media Query Basics
+
+The simplest media query syntax looks like this:
+
+```
+@media media-type and (media-feature-rule) {
+  /* CSS rules go here */
+}
+```
+
+It consists of:
+
+- A media type, which tells the browser what kind of media this code is 
+for (e.g. print, or screen).
+- A media expression, which is a rule, or test that must be passed for the 
+contained CSS to be applied.
+- A set of CSS rules that will be applied if the test passes and the media 
+type is correct.
+
+### Media types
+
+- The possible types of media you can specify are:
+
+  - all
+  - print
+  - screen
+
+The following media query will only set the body to 12pt if the page is 
+printed. It will not apply when the page is loaded in a browser.
+
+```
+@media print {
+  body {
+    font-size: 12pt;
+  }
+}
+```
+
+>**Note**: The media type here is different from the so-called [MIME](https://developer.mozilla.org/en-US/docs/Glossary/MIME_type) type.
+
+>**Note:** There were a number of other media types defined in the Level 3 
+Media Queries specification; these have been deprecated and should be avoided.
+
+>**Note:** Media types are optional; if you do not indicate a media type in 
+your media query, then the media query will default to being for all media 
+types.
+
+### Media feature rules
+
+After specifying the type, you can then target a media feature with a rule.
+
+#### Width and height
+
+The feature we tend to detect most often in order to create responsive 
+designs (and that has widespread browser support) is viewport width, and we 
+can apply CSS if the viewport is above or below a certain width — or an 
+exact width — using the `min-width`, `max-width`, and `width` media features.
+
+These features are used to create layouts that respond to different screen 
+sizes. For example, to change the body text color to red if the viewport 
+is exactly 600 pixels, you would use the following media query.
+
+```CSS
+@media screen and (width: 600px) {
+  .width-and-height-example-1 {
+    color: red;
+  }
+}
+```
+
+The width (and height) media features can be used as ranges, and therefore 
+be prefixed with min- or max- to indicate that the given value is a 
+minimum, or a maximum. For example, to make the color blue if the viewport 
+is 600 pixels or narrower, use max-width:
+
+```CSS
+@media screen and (max-width: 600px) {
+  .width-and-height-example-2 {
+    color: blue;
+  }
+}
+```
+
+In practice, using minimum or maximum values is much more useful for 
+responsive design so you will rarely see `width` or `height` used alone.
+
+### Orientation
+
+One well-supported media feature is orientation, which allows us to test 
+for portrait or landscape mode. To change the body text color if the device 
+is in landscape orientation, use the following media query.
+
+```css
+@media (orientation: landscape) {
+  .orientation-example-3 {
+    color: rebeccapurple;
+  }
+}
+```
+
+A standard desktop view has a landscape orientation, and a design that 
+works well in this orientation may not work as well when viewed on a phone 
+or tablet in portrait mode. Testing for orientation can help you to create 
+a layout which is optimized for devices in portrait mode.
+
+### Using ranged syntax
+
+One common case is to check if the viewport width is between two values:
+
+```css
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+}
+```
+
+If you want to improve the readability of this, you can use &quot;range&quot; syntax:
+
+```css
+@media (30em <= width <= 50em) {
+  /* … */
+}
+```
+
+## More complex media queries
+
+With all of the different possible media queries, you may want to combine 
+them, or create lists of queries — any of which could be matched.
+
+### &quot;and&quot; logic in media queries
+
+To combine media features you can use and in much the same way as we have 
+used and above to combine a media type and feature. For example, we might 
+want to test for a `min-width` and `orientation`. The body text will only be 
+blue if the viewport is at least 600 pixels wide and the device is in 
+landscape mode.
+
+### &quot;or&quot; logic in media queries
+
+If you have a set of queries, any of which could match, then you can comma 
+separate these queries. In the below example the text will be blue if the 
+viewport is at least 600 pixels wide OR the device is in landscape orientation. 
+If either of these things are true the query matches.
+
+### &quot;not&quot; logic in media queries
+
+You can negate an entire media query by using the `not` operator. This reverses 
+the meaning of the entire media query. Therefore in this next example the text 
+will only be blue if the orientation is portrait.
+
+## How to choose breakpoints
+
+- In the early days of responsive design, many designers would attempt to target 
+very specific screen sizes. Lists of the sizes of the screens of popular phones 
+and tablets were published in order that designs could be created to neatly 
+match those viewports.
+
+There are now far too many devices, with a huge variety of sizes, to make that 
+feasible. This means that instead of targeting specific sizes for all designs, 
+a better approach is to change the design at the size where the content starts 
+to break in some way. Perhaps the line lengths become far too long, or a boxed 
+out sidebar gets squashed and hard to read. That's the point at which you want 
+to use a media query to change the design to a better one for the space you have 
+available. This approach means that it doesn't matter what the exact dimensions 
+are of the device being used, every range is catered for. The points at which a 
+media query is introduced are known as breakpoints.
+
+The [Responsive Design Mode](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/index.html) 
+in Firefox DevTools is very useful for working out where these breakpoints should 
+go. You can easily make the viewport smaller and larger to see where the content 
+would be improved by adding a media query and tweaking the design.
+
+## How you can access this live website
+
+<dl>
+  Use the following URL:
+  <dd>
+    https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/1-media-query-basics/
+  </dd>
+  or click the following link:
+  <dd>
+    <a href="https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/1-media-query-basics/">Visit website</a>
+  </dd>
+</dl>
