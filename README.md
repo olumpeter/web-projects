@@ -381,5 +381,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/6-sticky-positioning">
         CSS layout - Positioning: Sticky positioning</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/7-test-1">
+        CSS layout - Positioning: Task 1</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/7-test-2">
         CSS layout - Positioning: Task 2</li>
 </ol>
