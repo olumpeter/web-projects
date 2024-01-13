@@ -349,10 +349,10 @@ technology!
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/72-css-layout/a-introduction-to-css-layout/
+    https://olumpeter.github.io/web-projects/72-css-layout/c-flexbox/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/72-css-layout/a-introduction-to-css-layout/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/72-css-layout/c-flexbox/">Visit website</a>
   </dd>
 </dl>
