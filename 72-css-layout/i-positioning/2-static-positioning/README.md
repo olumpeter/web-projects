@@ -1,6 +1,4 @@
-# CSS layout - Positioning
-    
-## Static positioning
+# CSS layout - Positioning: Static positioning
 
 Static positioning is the default that every element gets. It just means 
 &quot;put the element into its normal position in the document flow — nothing 
