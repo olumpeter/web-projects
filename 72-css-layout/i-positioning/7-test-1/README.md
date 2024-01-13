@@ -1,4 +1,4 @@
-# CSS layout - Positioning: Task 2
+# CSS layout - Positioning: Task 1
 
 In this task, if you scroll the box in the example below, the sidebar 
 scrolls with the content. Change it so that the sidebar stays in place and 
