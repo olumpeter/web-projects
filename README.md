@@ -368,6 +368,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Floats</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/h-test-your-skills-floats">
         CSS layout - Test your skills: Floats</li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning">
-        CSS layout - Positioning</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/1-introducing-positioning">
+        CSS layout - Positioning: Introducing positioning</li>
 </ol>
