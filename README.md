@@ -396,4 +396,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Responsive design: Demonstration of responsive typography</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/m-beginners-guide-to-media-queries/1-media-query-basics/">
         CSS layout - Beginner's guide to media queries</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/m-beginners-guide-to-media-queries/2-active-learning/">
+        CSS layout - Beginner's guide to media queries: Active learning - mobile first responsive design</li>
 </ol>
