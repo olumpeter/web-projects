@@ -390,4 +390,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Test your skills multiple-column layout</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/l-responsive-design/1-flexbox/">
         CSS layout - Responsive design: A simple flexbox-based responsive design</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/l-responsive-design/2-css-grid/">
+        CSS layout - Responsive design: A simple grid-based responsive designn</li>
 </ol>
