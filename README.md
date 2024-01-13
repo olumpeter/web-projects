@@ -356,4 +356,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Introduction to CSS layout</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/b-normal-flow">
         CSS layout - Normal Flow</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/c-flexbox">
+        CSS layout - Flexbox</li>
 </ol>
