@@ -137,10 +137,10 @@ main article. This can be achieved with grid layout, using no media queries at a
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/2-active-learning/
+    https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/2-active-learning/mobile-first-responsive-design/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/2-active-learning/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/2-active-learning/mobile-first-responsive-design/">Visit website</a>
   </dd>
 </dl>
