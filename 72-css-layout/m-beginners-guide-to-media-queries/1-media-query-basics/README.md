@@ -12,7 +12,7 @@ example whether the user is using a touchscreen rather than a mouse.
 
 The simplest media query syntax looks like this:
 
-```
+```css
 @media media-type and (media-feature-rule) {
   /* CSS rules go here */
 }
@@ -38,7 +38,7 @@ type is correct.
 The following media query will only set the body to 12pt if the page is 
 printed. It will not apply when the page is loaded in a browser.
 
-```
+```css
 @media print {
   body {
     font-size: 12pt;
@@ -70,7 +70,7 @@ These features are used to create layouts that respond to different screen
 sizes. For example, to change the body text color to red if the viewport 
 is exactly 600 pixels, you would use the following media query.
 
-```CSS
+```css
 @media screen and (width: 600px) {
   .width-and-height-example-1 {
     color: red;
@@ -83,7 +83,7 @@ be prefixed with min- or max- to indicate that the given value is a
 minimum, or a maximum. For example, to make the color blue if the viewport 
 is 600 pixels or narrower, use max-width:
 
-```CSS
+```css
 @media screen and (max-width: 600px) {
   .width-and-height-example-2 {
     color: blue;
