@@ -400,4 +400,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Beginner's guide to media queries: Active learning - mobile first responsive design</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/m-beginners-guide-to-media-queries/2-active-learning/with-grid-layout-using-no-media-queries-at-all/">
         CSS layout - Beginner's guide to media queries: Active learning - Do you really need a media query?</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/m-beginners-guide-to-media-queries/3-test-your-skills/">
+        CSS layout - Test your skills: Responsive web design and media queries - Task</li>
 </ol>
