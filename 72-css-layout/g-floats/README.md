@@ -177,6 +177,7 @@ unintended consequences when you use it.
   color: purple;
   display: flow-root;
 }
+```
 
 ## How you can access this live website
 
@@ -190,4 +191,3 @@ unintended consequences when you use it.
     <a href="https://olumpeter.github.io/web-projects/72-css-layout/g-floats/">Visit website</a>
   </dd>
 </dl>
-```
