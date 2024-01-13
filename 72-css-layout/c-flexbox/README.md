@@ -406,6 +406,7 @@ drop to a new line.
   font-size: 18px;
   line-height: 1.5;
 }
+```
 
 ## How you can access this live website
 
@@ -419,4 +420,4 @@ drop to a new line.
     <a href="https://olumpeter.github.io/web-projects/72-css-layout//">Visit website</a>
   </dd>
 </dl>
-```
+
