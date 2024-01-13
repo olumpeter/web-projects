@@ -384,4 +384,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Positioning: Task 1</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/i-positioning/7-test-2">
         CSS layout - Positioning: Task 2</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/j-multiple-column-layout/">
+        CSS layout - Multiple-column layoutli>
 </ol>
