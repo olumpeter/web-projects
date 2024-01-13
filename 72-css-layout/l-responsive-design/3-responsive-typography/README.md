@@ -72,7 +72,7 @@ not work as intended on mobile browsers. If you've got a narrow screen layout
 that kicks in at 480px viewport width or less, but the device is saying it is 
 980px wide, that user will not see your narrow screen layout.
 
-**So you should always include the viewport meta tag in the head of your 
+**So you should always include the viewport meta tag in the head of your documents.**
 
 
 ## How you can access this live website
@@ -87,5 +87,3 @@ that kicks in at 480px viewport width or less, but the device is saying it is
     <a href="https://olumpeter.github.io/web-projects/72-css-layout/l-responsive-design/3-responsive-typography/">Visit website</a>
   </dd>
 </dl>
-
-documents.**
