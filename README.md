@@ -362,4 +362,6 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS layout - Test your skills: Flexbox</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/e-grids">
         CSS layout - Grids</li>
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/72-css-layout/e-grids">
+        CSS layout - Test your skills: Grid</li>
 </ol>
