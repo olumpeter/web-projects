@@ -59,10 +59,10 @@ Lets first create a grid system that uses fixed width columns.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/n-legacy-layout-methods/1-a-two-column-layout/
+    https://olumpeter.github.io/web-projects/72-css-layout/n-legacy-layout-methods/1-a-two-column-layout/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/web-projects/72-css-layout/m-beginners-guide-to-media-queries/n-legacy-layout-methods/1-a-two-column-layout/">Visit website</a>
+    <a href="https://olumpeter.github.io/web-projects/72-css-layout/n-legacy-layout-methods/1-a-two-column-layout/">Visit website</a>
   </dd>
 </dl>
