@@ -1,0 +1,136 @@
+# CSS layout - Positioning: Absolute positioning
+
+Absolute positioning brings very different results.
+
+### Setting `position: absolute`
+
+Let's try changing the position declaration in your code as follows:
+
+```
+position: absolute;
+```
+
+If you now save and refresh, you should see something like so:
+
+First of all, note that the gap where the positioned element should be in the 
+document flow is no longer there — the first and third elements have closed 
+together like it no longer exists! Well, in a way, this is true. An absolutely 
+positioned element no longer exists in the normal document flow. Instead, it 
+sits on its own layer separate from everything else. This is very useful: it 
+means that we can create isolated UI features that don't interfere with the 
+layout of other elements on the page. For example, popup information boxes, 
+control menus, rollover panels, UI features that can be dragged and dropped 
+anywhere on the page, and so on.
+
+Second, notice that the position of the element has changed. This is because 
+`top`, `bottom`, `left`, and `right` behave in a different way with absolute 
+positioning. Rather than positioning the element based on its relative position 
+within the normal document flow, they specify the distance the element should be 
+from each of the containing element's sides. So in this case, we are saying that 
+the absolutely positioned element should sit 30px from the top of the 
+&quot;containing element&quot; and 30px from the left. (In this case, the t
+&quot;containing element&quot; is the **initial containing block**. See the section 
+below for more information).
+
+**Note**: You can use `top`, `bottom`, `left`, and `right` to resize elements 
+if you need to. Try setting top: 0; bottom: 0; left: 0; right: 0; and 
+margin: 0; on your positioned elements and see what happens! Put it back again 
+afterwards…
+
+**Note:** Yes, margins still affect positioned elements. Margin collapsing 
+doesn't, however.
+
+### Positioning contexts
+
+Which element is the &quot;containing element&quot; of an absolutely positioned 
+element? This is very much dependent on the position property of the ancestors 
+of the positioned element ([See Identifying the containing block](https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block#identifying_the_containing_block)).
+
+If no ancestor elements have their position property explicitly defined, then 
+by default all ancestor elements will have a static position. The result of 
+this is the absolutely positioned element will be contained in the initial 
+containing block. The initial containing block has the dimensions of the 
+viewport and is also the block that contains the `&lt;html&gt;` element. In 
+other words, the absolutely positioned element will be displayed outside of 
+the `&lt;html&gt;` element and be positioned relative to the initial viewport.
+
+The positioned element is nested inside the &lt;body&gt; in the HTML source, 
+but in the final layout it's 30px away from the top and the left edges of the 
+page. We can change the positioning context, that is, which element the 
+absolutely positioned element is positioned relative to. This is done by 
+setting positioning on one of the element's ancestors: to one of the elements 
+it's nested inside of (you can't position it relative to an element it's not 
+nested inside of). To see this, add the following declaration to your body rule:
+
+```
+position: relative;
+```
+
+### Introducing z-index
+
+All this absolute positioning is good fun, but there's another feature we haven't 
+considered yet. When elements start to overlap, what determines which elements 
+appear over others and which elements appear under others? In the example we've 
+seen so far, we only have one positioned element in the positioning context, and 
+it appears on the top since positioned elements win over non-positioned elements. 
+What about when we have more than one?
+
+```
+p:nth-of-type(1) {
+  position: absolute;
+  background: lime;
+  top: 10px;
+  right: 30px;
+}
+```
+
+At this point you'll see the first paragraph colored lime, moved out of the 
+document flow, and positioned a bit above from where it originally was. It's 
+also stacked below the original `.positioned` paragraph where the two overlap. 
+This is because the `.positioned` paragraph is the second paragraph in the 
+source order, and positioned elements later in the source order win over 
+positioned elements earlier in the source order.
+
+Can you change the stacking order? Yes, you can, by using the z-index property. 
+&quot;z-index&quot; is a reference to the z-axis. You may recall from previous 
+points in the course where we discussed web pages using horizontal (x-axis) and 
+vertical (y-axis) coordinates to work out positioning for things like background 
+images and drop shadow offsets. For languages that run left to right, (0,0) is 
+at the top left of the page (or element), and the x- and y-axes run across to 
+the right and down the page.
+
+Web pages also have a z-axis: an imaginary line that runs from the surface of 
+your screen towards your face (or whatever else you like to have in front of 
+the screen). z-index values affect where positioned elements sit on that axis; 
+positive values move them higher up the stack, negative values move them lower 
+down the stack. By default, positioned elements all have a z-index of auto, 
+which is effectively 0.
+
+To change the stacking order, try adding the following declaration to your 
+p:nth-of-type(1) rule:
+
+```
+z-index: 1;
+```
+
+You should now see the lime paragraph on top:
+
+Note that z-index only accepts unitless index values; you can't specify that 
+you want one element to be 23 pixels up the Z-axis — it doesn't work like 
+that. Higher values will go above lower values and it's up to you what values 
+you use. Using values of 2 or 3 would give the same effect as values of 300 or 
+40000.
+
+
+## How you can access this live website
+
+<dl>
+  Use the following URL:
+  <dd>
+    https://olumpeter.github.io/web-projects/72-css-layout/i-positioning/4-absolute-positioning/
+  </dd>
+  or click the following link:
+  <dd>
+    <a href="https://olumpeter.github.io/web-projects/72-css-layout/i-positioning/4-absolute-positioning/">Visit website</a>
+  </dd>
+</dl>
