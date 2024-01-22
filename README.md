@@ -16,7 +16,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Using of &lt;b&gt;, &lt;i&gt; and &lt;u&gt; to format HTML text</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/5-task-1-headings-paragraphs">
         Task 1: Marking up HTML text using semantic heading and paragraph elements</a></li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/6-task-2-lists-headings-paragraphs">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/6-task-2-lists">
         Task 2: Marking up HTML text using ordered and unordered semantic list elements</a></li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/7-task-3-emphasis-importance">
         Task 3: Marking up appropriate words with strong importance and emphasis using &lt;strong&gt; and &lt;em&gt; inline elements</a></li>
