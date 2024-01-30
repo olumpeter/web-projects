@@ -74,7 +74,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         Images in HTML: Task 2</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/30-images-in-html/Task-3">
         Images in HTML: Task 3</li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/31-embedding-a-video/Task-3">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/31-embedding-a-video/>
         Embedding a video</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/32-embedding-a-multiple-format-video">
         Embedding a multiple format video</li>
