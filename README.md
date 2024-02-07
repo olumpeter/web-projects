@@ -142,7 +142,7 @@ We will show you the projects build using HTML, CSS and JavaScript that are mean
         CSS Selectors: Substring matching selectors</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/6a-simple-pseudo-class-example">
         CSS Selectors: Simple pseudo-class examples</li>
-  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/6a-simple-pseudo-class-example">
+  <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/6b-user-action-pseudo-classes>
         CSS Selectors: User-action pseudo classes</li>
   <li><a href="https://github.com/olumpeter/web-projects/tree/main/56-css-selectors/7a-pseudo-elements">
         CSS Selectors: Pseudo-element</li>
