@@ -7,7 +7,7 @@ These selectors allow for more advanced matching of substrings inside the value 
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/5b-substring-matching-selectors/2a-class/
+    https://olumpeter.github.io/web-projects/56-css-selectors/5b-substring-matching-selectors
   </dd>
   or click the following link:
   <dd>
