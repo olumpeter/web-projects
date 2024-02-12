@@ -7,7 +7,7 @@ This project shows how changing the size of your device or browser may change th
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/web-projects/58-cascade-layers/58a-origin-and-specificity/
+    https://olumpeter.github.io/web-projects/58-cascade-layers/58c-layer-creation-and-media-queries/
   </dd>
   or click the following link:
   <dd>
